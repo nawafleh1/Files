@@ -17,9 +17,9 @@ Note on Whoop data: no Whoop connector was reachable in this session, so your pe
 ## 1. One page summary
 
 ### What the research says, in one paragraph
-For every one of your five goals, a behaviour outranks every supplement. Guided CBT with exposure and response prevention is the only thing with large effects on health anxiety and checking (within group g about 2.0, remission 44 to 48%; Axelsson 2019, 2024 cohort). Caffeine control is the second biggest anxiety lever (at or above 400 mg/day, anxiety SMD 2.86 vs 0.61 below it; Liu 2024). Sleep regularity, morning light, a 13:00 caffeine cutoff and finishing hard training 4 hours before bed are what move Whoop Sleep Performance (Windred 2024; Gardiner 2023; Leota 2025). Natural testosterone in a healthy 24 year old is protected by sleep (5 h sleep cuts T 10 to 15%; Leproult 2011), by not over cutting (contest prep deficits cut T 70%; Rossow 2013, Pardue 2017) and by keeping dietary fat at 25 to 35% (low fat diets cut T 10 to 15%; Whittaker 2021). No legal supplement moves T in a healthy young man by more than about 10 to 15%, and the two herbs that do (ashwagandha, tongkat ali) are excluded here for liver and anxiety reasons. Fat loss is calories, protein and lifting; every fat loss supplement is worth under 1 kg over the whole cut. Supplements in this protocol are a 10 to 20% layer on top of the behaviours, chosen because they are safe without labs and carry no detachment, blunting or arousal signal.
+For every one of your five goals, a behaviour outranks every supplement. Guided CBT with exposure and response prevention is the only thing with large effects on health anxiety and checking (within group g about 2.0, remission 44 to 48%; Axelsson 2019, 2024 cohort). Caffeine control is the second biggest anxiety lever (at or above 400 mg/day, anxiety SMD 2.86 vs 0.61 below it; Liu 2024). Sleep regularity, morning light, a 13:00 caffeine cutoff and finishing hard training 4 hours before bed are what move Whoop Sleep Performance (Windred 2024; Gardiner 2023; Leota 2025). Natural testosterone in a healthy 24 year old is protected by sleep (5 h sleep cuts T 10 to 15%; Leproult 2011), by not over cutting (contest prep deficits cut T 70%; Rossow 2013, Pardue 2017) and by keeping dietary fat at 25 to 35% (low fat diets cut T 10 to 15%; Whittaker 2021). No legal supplement moves T in a healthy young man by more than about 10 to 15%; ashwagandha is the one herb with repeated RCT support for that and for stress, and it is included for a single 8 week block. Fat loss is calories, protein and lifting; every fat loss supplement is worth under 1 kg over the whole cut. Supplements in this protocol are a 10 to 20% layer on top of the behaviours, chosen because they are safe without labs and carry no detachment, blunting or arousal signal.
 
-### Final core stack (9 items, all A or B tier, all safe without labs)
+### Final core stack (10 items, all A or B tier; all safe without labs except ashwagandha, which is time limited for that reason)
 
 | # | Item | Dose, form, timing | Tier | Goal | Cost/month (USD) |
 |---|---|---|---|---|---|
@@ -32,8 +32,11 @@ For every one of your five goals, a behaviour outranks every supplement. Guided 
 | 7 | Multivitamin at RDA level (covers D3 2,000 IU, K2, zinc 15 mg with copper, B vitamins) | 2 capsules with breakfast | A for deficiency insurance in a deficit | 4, 3 | 25 to 35 |
 | 8 | Glycine | 3 g powder in water at 20:30 | B | 5 | 5 to 12 |
 | 9 | Whey isolate (food tool, not a supplement in the pharmacological sense) | 1 to 2 scoops/day to reach 170 g protein | A | 3 | 45 to 65 |
+| 10 | Ashwagandha KSM-66 (8 week block only, Day 15 to Day 71) | 300 mg at 12:00 and 300 mg at 20:30 with food | B (anxiety, stress, sleep), B (T plus 10 to 15%) | 1, 4, 5 | 12 to 20 |
 
-Core total: about 165 to 285 USD/month.
+Core total: about 175 to 305 USD/month.
+
+Ashwagandha terms: the stress and anxiety evidence is real (cortisol meta-analysis 2025; Akhgarjand 2022 anxiety meta-analysis; Cheah 2021 sleep SMD -0.59; Chauhan 2022 T plus 17% in healthy men; Fornalik 2026 meta-analysis MD plus 57 ng/dL). Huberman's own rule is short use, not indefinite. The 8 week block matches the RCT durations and the cut. The one risk that cannot be managed without labs is rare idiosyncratic liver injury (LiverTox probable; 2026 case series of 26 patients), so: stop immediately and see a doctor for dark urine, jaundice, itching, right upper quadrant pain or unexplained nausea; stop for any emotional flattening; do not add any other liver flagged botanical (tongkat ali, green tea extract, kava) during the block. Silexan stays alongside it; they act by different mechanisms and the lavender trials ran it with other agents.
 
 ### Frontier tier (B tier, emerging evidence, acceptable safety, no labs; added one at a time after the core)
 
@@ -78,7 +81,7 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 | 08:15 to 10:15 | Deep work block 1. Phone on do not disturb. | Highest alertness window. |
 | 09:45 | Lifting days only: second coffee 100 mg. Total for the day is now 200 mg, final. | Non lifting days: no second coffee. |
 | 10:30 to 11:45 | Lifting session (your program). Maintain loads; trim volume 20 to 40% only if top sets fall 5 to 10% for 2 weeks. 1 to 3 reps in reserve on compounds. | Recovery colour rules below. |
-| 12:00 | Meal 2 (about 45 g protein plus most of the day's carbs on training days). Omega-3 2 g. | |
+| 12:00 | Meal 2 (about 45 g protein plus most of the day's carbs on training days). Omega-3 2 g. Ashwagandha 300 mg (Day 15 to 71). | |
 | 12:45 to 15:00 | Deep work block 2. | |
 | 13:00 | Caffeine cutoff. No tea, cola, chocolate above a square, or pre workouts after this. | 8.8 h before bed minimum (Gardiner 2023). |
 | 15:00 | Optional nap, 20 minutes maximum, never after 15:30. | Whoop subtracts naps from Sleep Need. |
@@ -90,7 +93,7 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 | 19:00 to 19:30 | Therapy homework: iCBT module or ERP exposure task, 3 to 4 evenings per week. | See Section 2.1. |
 | 19:30 to 19:50 | Sauna 15 to 20 minutes at 80 to 90 C, 3 to 4 evenings per week (after training days). Lukewarm rinse, not cold. 500 ml water plus 500 to 1,000 mg sodium after. Skip on Red recovery days. | Finishes 100 minutes before lights out. |
 | 19:30 onward | Lights under 50 lux (lamps at knee height, warm bulbs). Phone on minimum brightness and night mode. No work, news or messages. | |
-| 20:30 | Magnesium bisglycinate 300 mg, glycine 3 g, L-theanine 200 mg, saffron 28 mg (Frontier), psychobiotic (Frontier). | With a small amount of water; no food. |
+| 20:30 | Magnesium bisglycinate 300 mg, glycine 3 g, L-theanine 200 mg, ashwagandha 300 mg with a spoon of yoghurt (Day 15 to 71), saffron 28 mg (Frontier), psychobiotic (Frontier). | Small amount of water. |
 | 20:45 | Warm shower 10 minutes at 40 to 42 C (on non sauna nights). | Haghayegh 2019: sleep onset about 10 minutes faster. |
 | 21:00 | Phone out of the bedroom. Paper book, dim light. | |
 | 21:30 | Lights out. Eight Sleep bedtime phase. Three physiological sighs if aroused, then nothing. | If awake more than 20 minutes, get up, dim light, dull book, return when sleepy. |
@@ -124,6 +127,7 @@ L-theanine and magnesium bisglycinate were already cleared in earlier discussion
 |---|---|---|---|
 | 1 | Tue 20 Oct | All behaviours, caffeine cap, L-theanine, magnesium, whey, creatine 5 g | Creatine adds 0.8 to 1.5 kg water in week 1; the scale will be flat for 10 days. This is expected. |
 | 8 | Tue 27 Oct | Silexan 80 mg | Lavender burps in 5 to 10% of users. Onset 2 weeks, full by 6 to 10 weeks. |
+| 15 | Tue 3 Nov | Ashwagandha KSM-66 300 mg twice daily, 8 week block to Day 71 (Tue 29 Dec), then stop | Drowsiness or GI upset early; onset for stress 2 to 4 weeks, for T 8 weeks. Liver stop rules in Section 1. |
 | 22 | Tue 10 Nov | Omega-3 2 g EPA plus DHA | Fishy burps; take with the biggest meal. Onset 8 to 12 weeks. |
 | 29 | Tue 17 Nov | Multivitamin 2 caps | Nausea if taken without food. |
 | 36 | Tue 24 Nov | Glycine 3 g at 20:30. Decide Silexan: stay 80 mg or go to 160 mg | Diet break week starts (Section 4). |
@@ -132,7 +136,7 @@ L-theanine and magnesium bisglycinate were already cleared in earlier discussion
 | 64 | Tue 22 Dec | Psychobiotic (Cerebiome), 8 weeks | Transient bloating for 1 to 2 weeks. |
 | 78 | Tue 5 Jan | Citicoline 250 mg at 08:00 (500 mg from Day 92 if continuing) | Headache or insomnia only if taken late. |
 
-Items that stay for all 90 days: everything above, once added. Nothing is cycled except caffeine (keep the cap; no "caffeine breaks" needed at 200 mg).
+Items that stay for all 90 days: everything above, once added, except ashwagandha, which ends on Day 71 and is not restarted inside this protocol. Nothing else is cycled.
 
 ---
 
@@ -238,7 +242,7 @@ Context: Johnson cut his stack from 111 to about 30 items by March 2026, stopped
 | Magnesium citrate | 150 mg | B | Adapt | 300 mg bisglycinate at night (Attia, Huberman, Galpin all dose magnesium at night). |
 | Zinc 15 mg, boron 3 mg, iodine, B complex, selenium | RDA level | A for deficiency, C for enhancement | Adopt at RDA via multivitamin | No standalone zinc or boron: zinc raises T only in deficient men (Te 2023); boron is one 8 man uncontrolled study (Naghii 2011). |
 | Vitamin K1 1.5 mg, K2 MK-4 5 mg, MK-7 600 mcg | High | C for T, B for bone | Adapt | RDA level K2 in the multivitamin. No human trial shows K2 raises T (rat data only). |
-| Ashwagandha plus Rhodiola capsule | about 120 mg | B | Skip | Ashwagandha: probable hepatotoxin (LiverTox; 2026 case series of 26 patients; TGA alert 2024), no labs to monitor, and consumer reports of flat, detached mood that overlap DP/DR. Rhodiola is mildly stimulating. |
+| Ashwagandha plus Rhodiola capsule | about 120 mg | B | Adapt (ashwagandha), Skip (Rhodiola) | Ashwagandha at the RCT dose (KSM-66 600 mg/day) for one 8 week block with liver stop rules, rather than an under dosed combination capsule taken indefinitely. Rhodiola is mildly stimulating and its trials are low quality. |
 | Taurine | 1.5 g | B performance, C longevity | Skip | Human aging premise weakened (2025 Science: circulating taurine does not reliably decline with age); no anxiety RCT. |
 | Calcium alpha-ketoglutarate | 2 g | C | Skip | Uncontrolled epigenetic clock report (Demidenko 2021, n 42, no placebo). |
 | Nicotinamide riboside or NMN | 300 to 500 mg plus | B for blood NAD, C for outcomes | Skip | 2024 to 2025 meta-analyses null on glucose, lipids, muscle; no cognition or mood RCT in young adults. |
@@ -287,6 +291,7 @@ Buy from a US pharmacy or Amazon US now while travelling; iHerb ships everything
 | Silexan lavender oil | Nature's Way CalmAid 80 mg (Silexan, the exact RCT product) | 80 to 160 mg | Amazon US, Swanson, CVS / iHerb to UAE (Lasea listed on noon.com as coming soon) / iHerb to Jordan | 20 to 50 | Lavender burps 5 to 10%, mild nausea; no sedation, no dependence | None |
 | Omega-3 | Nordic Naturals Ultimate Omega (NSF Certified for Sport version), 2 softgels = about 650 mg EPA, 450 mg DHA; take 4 softgels | about 2.2 g EPA plus DHA | Amazon US, Whole Foods / Life Pharmacy, Amazon.ae, iHerb / iHerb, Pharmacy 1 (Solgar as fallback) | 30 to 45 | Fishy burps | None; theoretical bleeding only with anticoagulants |
 | Multivitamin | Thorne Basic Nutrients 2/Day (NSF Certified for Sport): D3 2,000 IU, K2 MK-7, zinc 15 mg bisglycinate with copper, methylated B vitamins, iodine, selenium | 2 caps | Amazon US, Thorne.com / iHerb, Amazon.ae / iHerb | 25 to 35 | Nausea without food | Zinc: separate 2 h from psyllium and magnesium; this is why magnesium is at night |
+| Ashwagandha | Jarrow Formulas KSM-66 Ashwagandha 300 mg (standardised 5% withanolides) or Nutricost KSM-66 300 mg; buy 2 bottles of 120 for the 8 week block | 300 mg twice daily, Day 15 to 71 | Amazon US / iHerb, Amazon.ae (avoid Himalaya non standardised root at Life Pharmacy) / iHerb | 12 to 20 | Drowsiness, GI upset, rare liver injury, reported emotional flattening in some users | Mild sedative: fine with the night stack; do not combine with tongkat ali, green tea extract or kava |
 | Glycine | NOW Glycine powder or Thorne Glycine | 3 g | Amazon US / iHerb, Amazon.ae / iHerb | 5 to 12 | None; sweet taste | None |
 | Whey isolate | NOW Sports Whey Protein Isolate (Informed Sport) or Momentous Whey Isolate (NSF Certified for Sport); Optimum Nutrition Gold Standard (Informed Choice) is the regional fallback | 25 to 50 g protein | Amazon US / Sporter.com, Life Pharmacy (ON, Dymatize), iHerb (NOW) / Amman supplement shops, Pharmacy 1, Dawacom (ON, Dymatize) | 45 to 65 | None | None |
 | Psyllium (only if fibre is short) | Metamucil or NOW Psyllium Husk | 5 g | Everywhere / Life Pharmacy / any pharmacy | 10 | Bloating early | Separate 2 h from zinc and magnesium |
@@ -299,7 +304,7 @@ Buy from a US pharmacy or Amazon US now while travelling; iHerb ships everything
 | Device: light box (US winter only) | Carex Day-Light Classic Plus 10,000 lux | 20 to 30 min on dark mornings | Amazon US; unnecessary in Dubai or Amman | 130 to 150 once | Headache, agitation if used late | None |
 | Device: sunrise lamp (optional) | Philips SmartSleep or Hatch Restore | with the Eight Sleep thermal alarm | Amazon US / Amazon.ae | 50 to 180 once | None | None |
 
-Total core supplements: about 165 to 285 USD/month. Core plus Frontier: about 260 to 410 USD/month. One time devices: about 90 to 500 USD.
+Total core supplements: about 175 to 305 USD/month. Core plus Frontier: about 270 to 430 USD/month. One time devices: about 90 to 500 USD.
 
 Regional notes: CBD and kava are not in this protocol and CBD is illegal to carry into the UAE and Jordan. Prescription stimulants are controlled in both countries. Supplements above are ordinary dietary supplements in both.
 
@@ -308,7 +313,7 @@ Regional notes: CBD and kava are not in this protocol and CBD is illegal to carr
 ## 8. Skipped list, with reasons
 
 ### Excluded for your anxiety and DP/DR profile (would conflict with goal 1)
-- Ashwagandha (KSM-66, Shoden, Sensoril): B+ tier for a 10 to 15% T rise in healthy men (Fornalik 2026 meta-analysis, MD plus 57 ng/dL) and B for sleep and anxiety, but LiverTox lists it as a probable hepatotoxin (2026 case series of 26 patients; TGA alert Feb 2024; a 2024 case after five 450 mg capsules), you cannot monitor liver enzymes, and the consumer reports of flat, numb, detached mood overlap exactly with DP/DR. Huberman limits it to one week at a time; Denmark advises against it.
+- Ashwagandha is included (Section 1, item 10) for one 8 week block at the RCT dose. Not indefinitely: the liver signal (LiverTox probable; 2026 case series of 26 patients; TGA alert Feb 2024) cannot be monitored without labs, so exposure is time limited and the stop rules apply.
 - Tongkat ali: B tier, but the only healthy young men trial (Chan 2021, n 32, 2 weeks) raised estradiol 30% alongside T 15%; meta-analytic effect is significant only in hypogonadal men (Leisegang 2022); reported insomnia and restlessness; two liver injury case reports (2024, 2025). Conflicts with goals 1 and 5.
 - Rhodiola, Panax ginseng, L-tyrosine, paraxanthine, nicotine, yohimbine, synephrine: all raise arousal; the "less anxiogenic" paraxanthine claim comes from n 12 to 13 trials by one funded group with anxiety never measured; nicotine attention gains come with dependence and anxious withdrawal; yohimbine works fasted but raises anxiety and blood pressure.
 - Kanna (Zembrin): serotonergic, user reports of feeling spaced out, no chronic RCT.
@@ -356,7 +361,7 @@ Three metrics. Write them in a single line in a notebook. Nothing else is tracke
 
 Monthly only (Day 29, 57, 73, 90): InBody on the same machine, fasted, same time of day, and the four top set loads (bench, row, overhead press, chin up).
 
-Stop rules (the only reasons to change anything): dark urine, jaundice, right upper quadrant pain or unexplained nausea (stop every herbal item, which in this protocol means Silexan and saffron, and see a doctor); any new emotional flattening or detachment after adding an item (stop that item); hives or rash (stop the last added item). Otherwise this protocol runs unchanged to 17 Jan 2027.
+Stop rules (the only reasons to change anything): dark urine, jaundice, itching, right upper quadrant pain or unexplained nausea (stop every herbal item, which in this protocol means ashwagandha, Silexan and saffron, and see a doctor); any new emotional flattening or detachment after adding an item (stop that item); hives or rash (stop the last added item). Otherwise this protocol runs unchanged to 17 Jan 2027.
 
 ---
 
