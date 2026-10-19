@@ -32,7 +32,7 @@ For every one of your five goals, a behaviour outranks every supplement. Guided 
 | 7 | Multivitamin at RDA level (covers D3 2,000 IU, K2, zinc 15 mg with copper, B vitamins) | 2 capsules with breakfast | A for deficiency insurance in a deficit | 4, 3 | 25 to 35 |
 | 8 | Glycine | 3 g powder in water at 20:30 | B | 5 | 5 to 12 |
 | 9 | Whey isolate (food tool, not a supplement in the pharmacological sense) | 1 to 2 scoops/day to reach 170 g protein | A | 3 | 45 to 65 |
-| 10 | Ashwagandha KSM-66 (8 week block only, Day 15 to Day 71) | 300 mg at 12:00 and 300 mg at 20:30 with food | B (anxiety, stress, sleep), B (T plus 10 to 15%) | 1, 4, 5 | 12 to 20 |
+| 10 | Ashwagandha, Thorne Shoden extract (8 week block only, Day 15 to Day 71) | 1 capsule at 20:30 with food (equivalent to 600 mg KSM-66) | B (anxiety, stress, sleep), B (T plus 10 to 15%) | 1, 4, 5 | 12 to 20 |
 
 Core total: about 175 to 305 USD/month.
 
@@ -84,7 +84,7 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 | 08:15 to 10:15 | Deep work block 1. Phone on do not disturb. | Highest alertness window. |
 | 09:45 | Lifting days only: second coffee 100 mg. Total for the day is now 200 mg, final. | Non lifting days: no second coffee. |
 | 10:30 to 11:45 | Lifting session (your program). Maintain loads; trim volume 20 to 40% only if top sets fall 5 to 10% for 2 weeks. 1 to 3 reps in reserve on compounds. | Recovery colour rules below. |
-| 12:00 | Meal 2 (about 45 g protein plus most of the day's carbs on training days). Omega-3 2 g. Ashwagandha 300 mg (Day 15 to 71). | |
+| 12:00 | Meal 2 (about 45 g protein plus most of the day's carbs on training days). Omega-3 2 g. | |
 | 12:45 to 15:00 | Deep work block 2. | |
 | 13:00 | Caffeine cutoff. No tea, cola, chocolate above a square, or pre workouts after this. | 8.8 h before bed minimum (Gardiner 2023). |
 | 15:00 | Optional nap, 20 minutes maximum, never after 15:30. | Whoop subtracts naps from Sleep Need. |
@@ -95,7 +95,7 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 | 19:00 to 19:30 | Self help program module or exposure task, 2 to 3 evenings per week (Day 7 to 90). Alone, no discussion. Other evenings free. | See Section 2.1. |
 | 19:30 to 19:50 | Sauna 15 to 20 minutes at 80 to 90 C, 3 to 4 evenings per week (after training days). Lukewarm rinse, not cold. 500 ml water plus 500 to 1,000 mg sodium after. Skip on Red recovery days. | Finishes 100 minutes before lights out. |
 | 19:30 onward | Lights under 50 lux (lamps at knee height, warm bulbs). Phone on minimum brightness and night mode. No work, news or messages. | |
-| 20:30 | Magnesium bisglycinate 300 mg, glycine 3 g, L-theanine 200 mg, ashwagandha 300 mg with a spoon of yoghurt (Day 15 to 71), saffron 28 mg (Frontier), psychobiotic (Frontier). | Small amount of water. |
+| 20:30 | Magnesium bisglycinate 300 mg, glycine 3 g, L-theanine 200 mg, Thorne ashwagandha (Shoden) 1 capsule (Day 15 to 71), saffron 28 mg (Frontier), psychobiotic (Frontier). | Small amount of water. |
 | 20:45 | Warm shower 10 minutes at 40 to 42 C (on non sauna nights). | Haghayegh 2019: sleep onset about 10 minutes faster. |
 | 21:00 | Phone out of the bedroom. Paper book, dim light. | |
 | 21:30 | Lights out. Eight Sleep bedtime phase. Three physiological sighs if aroused, then nothing. | If awake more than 20 minutes, get up, dim light, dull book, return when sleepy. |
@@ -139,7 +139,7 @@ L-theanine and magnesium bisglycinate were already cleared in earlier discussion
 |---|---|---|---|
 | 1 | Tue 20 Oct | All behaviours, caffeine cap, L-theanine, magnesium, whey, creatine 5 g | Creatine adds 0.8 to 1.5 kg water in week 1; the scale will be flat for 10 days. This is expected. |
 | 8 | Tue 27 Oct | Silexan 80 mg | Lavender burps in 5 to 10% of users. Onset 2 weeks, full by 6 to 10 weeks. |
-| 15 | Tue 3 Nov | Ashwagandha KSM-66 300 mg twice daily, 8 week block to Day 71 (Tue 29 Dec), then stop | Drowsiness or GI upset early; onset for stress 2 to 4 weeks, for T 8 weeks. Liver stop rules in Section 1. |
+| 15 | Tue 3 Nov | Ashwagandha, Thorne Shoden extract, 1 capsule at 20:30, 8 week block to Day 71 (Tue 29 Dec), then stop | Drowsiness or GI upset early; onset for stress 2 to 4 weeks, for T 8 weeks. Liver stop rules in Section 1. |
 | 22 | Tue 10 Nov | Omega-3 2 g EPA plus DHA | Fishy burps; take with the biggest meal. Onset 8 to 12 weeks. |
 | 29 | Tue 17 Nov | Multivitamin 2 caps | Nausea if taken without food. |
 | 36 | Tue 24 Nov | Glycine 3 g at 20:30. Decide Silexan: stay 80 mg or go to 160 mg | Diet break week starts (Section 4). |
@@ -304,7 +304,7 @@ Buy from a US pharmacy or Amazon US now while travelling; iHerb ships everything
 | Silexan lavender oil | Nature's Way CalmAid 80 mg (Silexan, the exact RCT product) | 80 to 160 mg | Amazon US, Swanson, CVS / iHerb to UAE (Lasea listed on noon.com as coming soon) / iHerb to Jordan | 20 to 50 | Lavender burps 5 to 10%, mild nausea; no sedation, no dependence | None |
 | Omega-3 | Nordic Naturals Ultimate Omega (NSF Certified for Sport version), 2 softgels = about 650 mg EPA, 450 mg DHA; take 4 softgels | about 2.2 g EPA plus DHA | Amazon US, Whole Foods / Life Pharmacy, Amazon.ae, iHerb / iHerb, Pharmacy 1 (Solgar as fallback) | 30 to 45 | Fishy burps | None; theoretical bleeding only with anticoagulants |
 | Multivitamin | Thorne Basic Nutrients 2/Day (NSF Certified for Sport): D3 2,000 IU, K2 MK-7, zinc 15 mg bisglycinate with copper, methylated B vitamins, iodine, selenium | 2 caps | Amazon US, Thorne.com / iHerb, Amazon.ae / iHerb | 25 to 35 | Nausea without food | Zinc: separate 2 h from psyllium and magnesium; this is why magnesium is at night |
-| Ashwagandha | Jarrow Formulas KSM-66 Ashwagandha 300 mg (standardised 5% withanolides) or Nutricost KSM-66 300 mg; buy 2 bottles of 120 for the 8 week block | 300 mg twice daily, Day 15 to 71 | Amazon US / iHerb, Amazon.ae (avoid Himalaya non standardised root at Life Pharmacy) / iHerb | 12 to 20 | Drowsiness, GI upset, rare liver injury, reported emotional flattening in some users | Mild sedative: fine with the night stack; do not combine with tongkat ali, green tea extract or kava |
+| Ashwagandha | Thorne Ashwagandha (Shoden extract, NSF Certified for Sport), 30 caps; buy 2 for the 8 week block | 1 capsule at night, Day 15 to 71 | Amazon US / iHerb, Amazon.ae (avoid Himalaya non standardised root at Life Pharmacy) / iHerb | 12 to 20 | Drowsiness, GI upset, rare liver injury, reported emotional flattening in some users | Mild sedative: fine with the night stack; do not combine with tongkat ali, green tea extract or kava |
 | Glycine | NOW Glycine powder or Thorne Glycine | 3 g | Amazon US / iHerb, Amazon.ae / iHerb | 5 to 12 | None; sweet taste | None |
 | Whey isolate | NOW Sports Whey Protein Isolate (Informed Sport) or Momentous Whey Isolate (NSF Certified for Sport); Optimum Nutrition Gold Standard (Informed Choice) is the regional fallback | 25 to 50 g protein | Amazon US / Sporter.com, Life Pharmacy (ON, Dymatize), iHerb (NOW) / Amman supplement shops, Pharmacy 1, Dawacom (ON, Dymatize) | 45 to 65 | None | None |
 | Psyllium (only if fibre is short) | Metamucil or NOW Psyllium Husk | 5 g | Everywhere / Life Pharmacy / any pharmacy | 10 | Bloating early | Separate 2 h from zinc and magnesium |

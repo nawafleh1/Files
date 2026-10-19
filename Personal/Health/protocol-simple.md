@@ -24,8 +24,8 @@ Not allowed: body scan meditation, retreats, breath holds, Wim Hof, cold plunges
 ## The stack
 Morning (07:35 with breakfast): Silexan lavender 80 mg (from Day 8), multivitamin 2 caps (from Day 29), creatine 5 g (Day 1).
 08:00: coffee 100 mg plus L-theanine 200 mg (Day 1). Citicoline 250 mg (from Day 43).
-12:00 lunch: omega-3 4 softgels, about 2 g EPA plus DHA (from Day 22). Ashwagandha KSM-66 300 mg (Day 15 to Day 71).
-20:30: magnesium bisglycinate 300 mg (Day 1), glycine 3 g (Day 36), L-theanine 200 mg (Day 1), ashwagandha 300 mg (Day 15 to 71), saffron 28 mg (from Day 57), psychobiotic (from Day 71).
+12:00 lunch: omega-3 4 softgels, about 2 g EPA plus DHA (from Day 22).
+20:30: magnesium bisglycinate 300 mg (Day 1), glycine 3 g (Day 36), L-theanine 200 mg (Day 1), Thorne ashwagandha (Shoden) 1 capsule (Day 15 to 71), saffron 28 mg (from Day 57), psychobiotic (from Day 71).
 Run days: beetroot shot 2 to 3 h before the run.
 Protein: whey isolate to reach 170 g per day.
 
