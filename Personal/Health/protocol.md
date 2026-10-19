@@ -50,14 +50,14 @@ Every remaining candidate was checked against this stack. Tongkat ali is out: th
 | Citicoline (Cognizin) | 250 mg at 08:00, raise to 500 mg after 14 days | Attention error reduction in 28 day RCTs (McGlade 2012, 2015); memory in older adults (Nakazaki 2021). Gap: all Kyowa funded; no RCT in healthy men aged 18 to 35 | 25 to 50 |
 | Creatine at 10 g/day | 5 g morning plus 5 g post training from Day 43 | Memory SMD 0.31, attention time -0.31, processing speed -0.51 in 16 RCTs (Xu 2024); 0.35 g/kg single dose rescued cognition under sleep loss (Gordji-Nejad 2024, n 15; Nutrients 2026, n 29). Gap: no positive chronic 10 g trial in rested young adults; EFSA 2024 rejected a cognition claim | plus 5 |
 
-Frontier tools (no purchase risk, DP compatible): HRV biofeedback breathing with a chest strap (Goessl 2017, g 0.83 vs control for anxiety; in practice this is core, not frontier), 10 minute breath anchored NSDR after training (Moszeik 2025 RCT n 362, d -0.16 for anxiety), post training sauna 3 to 4 times per week (Janssen 2016 JAMA Psychiatry, single hyperthermia session lowered depression scores for 6 weeks; Kirby 2021, VO2max up in runners).
+Frontier tools (no purchase risk): optional HRV biofeedback breathing with a chest strap as recovery training (Goessl 2017, g 0.83 vs control for anxiety), post training sauna 3 to 4 times per week (Janssen 2016 JAMA Psychiatry, single hyperthermia session lowered depression scores for 6 weeks; Kirby 2021, VO2max up in runners).
 
 ### Top 5 non supplement levers (these beat every supplement)
 
-1. Guided CBT with exposure and response prevention for health anxiety and checking, plus metacognitive therapy techniques for rumination. Tier A. Start by Day 7. Internet delivered is non inferior to face to face (Axelsson 2020 JAMA Psychiatry, n 204).
+1. Not engaging: no checking, asking, googling, scanning or evaluating, and no daily tasks about anxiety at all (metacognitive principle; Normann and Morina 2018). Guided CBT with exposure and response prevention is Tier A (Axelsson 2020 JAMA Psychiatry, n 204) and is held in reserve behind a single Day 45 tripwire, see Section 2.1.
 2. Caffeine capped at 200 mg, morning only, nothing after 13:00, always with L-theanine. Tier A. Expect anxiety to drop within 1 to 2 weeks if you are currently above 300 mg.
 3. Sleep regularity: wake 06:30 every day, lights out 21:30, 10 to 30 minutes of outdoor light within an hour of waking. Tier A (Windred 2024, n 60,977: regular sleepers had 20 to 48% lower mortality; regularity now counts in Whoop Sleep Performance).
-4. Paced breathing at 5.5 to 6 breaths per minute, 15 minutes daily, with a chest strap for feedback. Tier A for anxiety (g 0.81 to 0.83). Physiological sigh for acute spikes (Balban 2023; acute arousal effect replicated, mood superiority not).
+4. Paced breathing at 5.5 to 6 breaths per minute, 5 to 15 minutes, optional, framed as HRV training for recovery rather than as an anxiety practice. Tier A for anxiety in trials (g 0.81 to 0.83), but for a ruminator a daily "anxiety ritual" is itself engagement, so it is not mandatory.
 5. A 600 kcal deficit with 170 g protein, fat at 65 g, lifting intensity maintained, running capped at 25 km/week easy pace, 10,000 to 12,000 steps. Tier A for fat loss and muscle retention (Helms 2014; ISSN 2026 position stand).
 
 ### Honest ceilings
@@ -78,7 +78,7 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 | 06:30 | Wake. Eight Sleep thermal alarm plus vibration. No snooze, no phone. | Fixed 7 days a week, within 30 minutes. |
 | 06:35 | 500 ml water with a pinch of salt. Weigh (fasted, after urinating). Write the number, do not interpret it. | Daily weight only feeds the Sunday 7 day average. |
 | 06:45 to 07:10 | Outdoor light 10 to 30 minutes (walk). No sunglasses. US winter: 20 to 30 minutes or 10,000 lux lamp at 30 to 50 cm. Dubai or Amman: 10 minutes. | A tier circadian lever. |
-| 07:15 | Paced breathing 15 minutes at 5.5 to 6 breaths/min (4.5 s in, 5.5 s out) with Polar H10 plus Elite HRV or HeartMath. Breath anchored, eyes open. | Skip interoceptive focus during an active DP wave; do it when calm. |
+| 07:15 | Optional: 5 to 15 minutes paced breathing at 6 breaths/min with the Polar H10 as HRV training. Skip freely. | Not an anxiety task. |
 | 07:35 | Breakfast, meal 1 (about 40 g protein). Silexan 80 mg. Multivitamin 2 caps. Creatine 5 g. | Omega-3 moves to lunch to spread fat. |
 | 08:00 | Coffee 100 mg caffeine plus L-theanine 200 mg. Citicoline (Frontier, from Day 43). | 90 minutes after waking. |
 | 08:15 to 10:15 | Deep work block 1. Phone on do not disturb. | Highest alertness window. |
@@ -90,10 +90,9 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 | 15:00 | Optional nap, 20 minutes maximum, never after 15:30. | Whoop subtracts naps from Sleep Need. |
 | 15:30 | Meal 3 (about 40 g protein). | |
 | 16:30 to 17:15 | Run days: zone 2 run 30 to 45 minutes (conversational). Cap 20 to 25 km/week total. No HIIT during the cut. Non run days: 30 to 45 minute walk toward the step target. | Ends by 17:30. |
-| 17:30 to 17:45 | NSDR 10 minutes, breath anchored script (Frontier tool). Stop if any floating or detachment sensation appears. | |
-| 18:00 | Worry postponement window, 15 minutes: write down every health worry from the day, then close the notebook. No googling, no reassurance asking. | Metacognitive therapy technique. |
+| 17:30 to 18:30 | Free time. Nothing scheduled about anxiety. | |
 | 18:30 | Meal 4, dinner (about 45 g protein including 30 g casein or Greek yoghurt or cottage cheese). Last food of the day. | 3 h before bed. |
-| 19:00 to 19:30 | Therapy homework: iCBT module or ERP exposure task, 3 to 4 evenings per week. | See Section 2.1. |
+| 19:00 to 19:30 | Free time, social, reading. | |
 | 19:30 to 19:50 | Sauna 15 to 20 minutes at 80 to 90 C, 3 to 4 evenings per week (after training days). Lukewarm rinse, not cold. 500 ml water plus 500 to 1,000 mg sodium after. Skip on Red recovery days. | Finishes 100 minutes before lights out. |
 | 19:30 onward | Lights under 50 lux (lamps at knee height, warm bulbs). Phone on minimum brightness and night mode. No work, news or messages. | |
 | 20:30 | Magnesium bisglycinate 300 mg, glycine 3 g, L-theanine 200 mg, ashwagandha 300 mg with a spoon of yoghurt (Day 15 to 71), saffron 28 mg (Frontier), psychobiotic (Frontier). | Small amount of water. |
@@ -103,12 +102,17 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 
 Weekly rhythm: 5 training days (your program), 2 rest days with walks. Sunday 08:00 is the only time you open Whoop, Eight Sleep and the weight log (Section 9). All Whoop push notifications off from Day 1. If you own Whoop MG, do not use the ECG for symptom checking.
 
-### 2.1 The anxiety and DP/DR behavioural protocol (runs all 90 days)
+### 2.1 The anxiety protocol (runs all 90 days): three rules, nothing to do
 
-- Enrol by Day 7 in one guided program: This Way Up "Health Anxiety" course (Australian, accepts international users, therapist guided, Newby 2018 RCT) or NOCD telehealth ERP (checking focus; Feusner 2022 cohort n 3,552, g 1.0). Either works from the US, Dubai or Amman. Budget 2 to 4 hours per week.
-- Response prevention list (no exceptions): no symptom googling, no re asking questions you already asked, no asking anyone "do I seem normal", no pulse or body checking, no mirror or hand staring, no "do I feel real" tests, no mid day Whoop or Eight Sleep checks.
-- Keep running your "don't answer the alarm" drill. When a DP/DR or health alarm fires: name it ("alarm"), one physiological sigh, return attention to the external task. Do not evaluate whether it worked.
-- Grounding for spikes: name 5 things you see, 4 you hear, 3 you touch. External anchors only.
+Design principle (metacognitive therapy, Wells; Normann and Morina 2018): rumination is kept alive by engaging with it, which includes monitoring it, analysing it, logging it and running rituals about it. For this profile the protocol deliberately contains no daily anxiety tasks. There is no worry window, no checking tally, no drill, no therapy enrolment. The anxiety work is the absence of work.
+
+1. Caffeine cap: 100 to 200 mg, nothing after 13:00. Passive.
+2. Sleep window: 06:30 wake, 21:30 lights out, morning light. Passive.
+3. Don't engage: no symptom googling, no re asking questions you already asked, no asking anyone "do I seem normal", no pulse or body checking, no mirror or hand staring, no "do I feel real" tests, no mid day Whoop or Eight Sleep checks. When a thought shows up, you let it pass and go back to what you were doing. No technique, no naming it, no evaluating whether that worked.
+
+Tripwire, checked once on Day 45 (Thu 3 Dec) and never before: if most of the day is still spent on it, enrol in the This Way Up "Health Anxiety" course (self paced, no sessions, about 40 USD; Newby 2018 RCT) and run it to Day 90. Internet delivered CBT with exposure and response prevention is Tier A (Axelsson 2020 JAMA Psychiatry, n 204, non inferior to face to face; remission 44 to 48%). It is held in reserve, not started, because it would otherwise be one more thing to do about it.
+
+- The morning breathing block is optional and is framed as HRV training for recovery, not as an anxiety practice. Do it if you enjoy it; skip it without thinking about it if you do not.
 - Not allowed during these 90 days: body scan meditation, open monitoring meditation over 10 minutes, retreats, breath holds, Wim Hof or holotropic breathwork, cold plunges. Dissociation and depersonalisation are among the most common meditation adverse events (Farias 2020: 8.3% pooled adverse event rate; Britton 2021: 6 to 14% lasting effects; Pons 2026: over a third of meditation triggered DP/DR began under 100 hours of practice). Cold immersion drives a 2 to 3 fold noradrenaline surge and showed no mood or anxiety benefit in the 2025 meta-analysis (Cain 2025).
 - Exercise dose for anxiety is already covered by your training (600 to 1,000 MET minutes per week gives g -0.84 at 12 weeks; 2026 network meta-analysis).
 
@@ -362,7 +366,9 @@ Three metrics. Write them in a single line in a notebook. Nothing else is tracke
 |---|---|---|---|
 | 1. 7 day average fasted weight | Your morning log | Down 0.5 to 0.7 kg from last Sunday (from week 3) | Apply Section 4.4 rules only. Weeks 1 to 2: no response. |
 | 2. 7 day average Whoop Sleep Performance | Whoop app, weekly view only | 90%+ average, Sleep Consistency 90%+ | If under 85% for two Sundays: move lights out 15 minutes earlier. Nothing else. |
-| 3. Checking count | Tally of reassurance seeking, symptom googling and body checking episodes you noticed that week | Falling week over week; under 5 by Day 60 | If rising for two Sundays: book an extra therapy session that week. Do not add or change a supplement. |
+| 3. Top set loads (bench, row, overhead press, chin up) | Training log | Held or rising | If down more than 5 to 10% for two weeks: apply the Section 4.4 rule (diet break early). |
+
+Anxiety is deliberately not a tracked metric. Tracking it is engaging with it. The one check is the Day 45 tripwire in Section 2.1.
 
 Monthly only (Day 29, 57, 73, 90): InBody on the same machine, fasted, same time of day, and the four top set loads (bench, row, overhead press, chin up).
 
