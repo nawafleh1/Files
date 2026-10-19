@@ -54,7 +54,7 @@ Frontier tools (no purchase risk): optional HRV biofeedback breathing with a che
 
 ### Top 5 non supplement levers (these beat every supplement)
 
-1. Not engaging: no checking, asking, googling, scanning or evaluating, and no daily tasks about anxiety at all (metacognitive principle; Normann and Morina 2018). Guided CBT with exposure and response prevention is Tier A (Axelsson 2020 JAMA Psychiatry, n 204) and is held in reserve behind a single Day 45 tripwire, see Section 2.1.
+1. Structured exposure and response prevention for health anxiety, done alone from a program or book, no therapist and no talking. Tier A. Unguided delivery gave d 0.80 to 1.02 vs waitlist and 44 to 48% remission, not significantly different from therapist guided (Hedman 2016, n 132). Doing nothing gives g 0.17 and about 15% remission (Scott 2022, 173 trials). See Section 2.1.
 2. Caffeine capped at 200 mg, morning only, nothing after 13:00, always with L-theanine. Tier A. Expect anxiety to drop within 1 to 2 weeks if you are currently above 300 mg.
 3. Sleep regularity: wake 06:30 every day, lights out 21:30, 10 to 30 minutes of outdoor light within an hour of waking. Tier A (Windred 2024, n 60,977: regular sleepers had 20 to 48% lower mortality; regularity now counts in Whoop Sleep Performance).
 4. Paced breathing at 5.5 to 6 breaths per minute, 5 to 15 minutes, optional, framed as HRV training for recovery rather than as an anxiety practice. Tier A for anxiety in trials (g 0.81 to 0.83), but for a ruminator a daily "anxiety ritual" is itself engagement, so it is not mandatory.
@@ -92,7 +92,7 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 | 16:30 to 17:15 | Run days: zone 2 run 30 to 45 minutes (conversational). Cap 20 to 25 km/week total. No HIIT during the cut. Non run days: 30 to 45 minute walk toward the step target. | Ends by 17:30. |
 | 17:30 to 18:30 | Free time. Nothing scheduled about anxiety. | |
 | 18:30 | Meal 4, dinner (about 45 g protein including 30 g casein or Greek yoghurt or cottage cheese). Last food of the day. | 3 h before bed. |
-| 19:00 to 19:30 | Free time, social, reading. | |
+| 19:00 to 19:30 | Self help program module or exposure task, 2 to 3 evenings per week (Day 7 to 90). Alone, no discussion. Other evenings free. | See Section 2.1. |
 | 19:30 to 19:50 | Sauna 15 to 20 minutes at 80 to 90 C, 3 to 4 evenings per week (after training days). Lukewarm rinse, not cold. 500 ml water plus 500 to 1,000 mg sodium after. Skip on Red recovery days. | Finishes 100 minutes before lights out. |
 | 19:30 onward | Lights under 50 lux (lamps at knee height, warm bulbs). Phone on minimum brightness and night mode. No work, news or messages. | |
 | 20:30 | Magnesium bisglycinate 300 mg, glycine 3 g, L-theanine 200 mg, ashwagandha 300 mg with a spoon of yoghurt (Day 15 to 71), saffron 28 mg (Frontier), psychobiotic (Frontier). | Small amount of water. |
@@ -102,17 +102,22 @@ Schedule assumes a 21:30 lights out and 06:30 wake (9 h in bed). If your Whoop S
 
 Weekly rhythm: 5 training days (your program), 2 rest days with walks. Sunday 08:00 is the only time you open Whoop, Eight Sleep and the weight log (Section 9). All Whoop push notifications off from Day 1. If you own Whoop MG, do not use the ECG for symptom checking.
 
-### 2.1 The anxiety protocol (runs all 90 days): three rules, nothing to do
+### 2.1 The anxiety protocol (runs all 90 days): structured self help without talking, plus three passive rules
 
-Design principle (metacognitive therapy, Wells; Normann and Morina 2018): rumination is kept alive by engaging with it, which includes monitoring it, analysing it, logging it and running rituals about it. For this profile the protocol deliberately contains no daily anxiety tasks. There is no worry window, no checking tally, no drill, no therapy enrolment. The anxiety work is the absence of work.
+What the evidence actually says (checked 19 Oct 2026, not taken on anyone's word):
+- Doing nothing structured: across 173 trials and 15,250 treatment seeking adults left on waitlists for 11 to 12 weeks, anxiety improved by g 0.17 and about 15% reached remission (Scott et al., J Anxiety Disord 2022). Hypochondriasis is moderately stable: 63% still met criteria 4 to 5 years later in one primary care cohort.
+- Structured self help without a therapist: in a 4 arm RCT of 132 adults with illness anxiety or somatic symptom disorder (Hedman et al., Br J Psychiatry 2016), 12 weeks of exposure based CBT delivered as an unguided book gave d 0.80 vs waitlist and 44% remission; unguided internet modules d 1.02 and 48%; therapist guided d 1.27 and 53%. The three active arms did not differ significantly. Number needed to treat about 2. Waitlist remission 0%.
+- "Just stop thinking about it" as a technique: thought suppression produces a small to moderate rebound (meta-analyses 2001, 2020). Worry postponement alone, with a metacognitive rationale, reduced worry in GAD but produced no significant effect in the hypochondriasis group (randomised waitlist trial, 2024). Metacognitive therapy is not "nothing": it is attention training, detached mindfulness and belief experiments, and its one health anxiety trial is a small 2024 pilot (Bailey and Wells, g 3.18, tiny sample).
+- Tracking or monitoring symptoms: no controlled study shows it worsens health anxiety; the harm claim is a plausible mechanism (attention to bodily signals, sleep tracker orthosomnia reports) with only indirect evidence. Safety behaviours (checking, reassurance seeking, googling) are maintaining factors in every model of the condition.
+
+Conclusion: the active ingredient is structured exposure and response prevention, and it works about as well from a book as from a therapist. Talking is not required. Doing nothing is about equal to a waitlist. So:
 
 1. Caffeine cap: 100 to 200 mg, nothing after 13:00. Passive.
 2. Sleep window: 06:30 wake, 21:30 lights out, morning light. Passive.
-3. Don't engage: no symptom googling, no re asking questions you already asked, no asking anyone "do I seem normal", no pulse or body checking, no mirror or hand staring, no "do I feel real" tests, no mid day Whoop or Eight Sleep checks. When a thought shows up, you let it pass and go back to what you were doing. No technique, no naming it, no evaluating whether that worked.
+3. Don't engage (this is the response prevention arm of the treatment, not a technique): no symptom googling, no re asking questions you already asked, no asking anyone "do I seem normal", no pulse or body checking, no mirror or hand staring, no "do I feel real" tests, no mid day Whoop or Eight Sleep checks.
+4. Structured self help, unguided, Day 7 to Day 90: one CBT exposure and response prevention program for health anxiety, done alone, 1 to 2 hours per week, no sessions, no talking. Options: This Way Up "Health Anxiety" course (6 online lessons, about 40 USD, can be run without clinician contact; Newby 2018 RCT) or the book "Overcoming Health Anxiety" by Rob Willson and David Veale (CBT with exposure and response prevention, the closest published equivalent to the booklet used in the Swedish trial). Pick one on Day 1, start Day 7, follow it in order, finish it. The trial's authors note that the fixed 12 week commitment itself seems to matter.
 
-Tripwire, checked once on Day 45 (Thu 3 Dec) and never before: if most of the day is still spent on it, enrol in the This Way Up "Health Anxiety" course (self paced, no sessions, about 40 USD; Newby 2018 RCT) and run it to Day 90. Internet delivered CBT with exposure and response prevention is Tier A (Axelsson 2020 JAMA Psychiatry, n 204, non inferior to face to face; remission 44 to 48%). It is held in reserve, not started, because it would otherwise be one more thing to do about it.
-
-- The morning breathing block is optional and is framed as HRV training for recovery, not as an anxiety practice. Do it if you enjoy it; skip it without thinking about it if you do not.
+Not included, on evidence: a daily worry postponement window (null in hypochondriasis), a weekly anxiety or checking tally (no evidence it helps and it is a form of monitoring), talk based or supportive therapy (reassurance by another name). The morning breathing block is optional and framed as HRV training, not as an anxiety practice.
 - Not allowed during these 90 days: body scan meditation, open monitoring meditation over 10 minutes, retreats, breath holds, Wim Hof or holotropic breathwork, cold plunges. Dissociation and depersonalisation are among the most common meditation adverse events (Farias 2020: 8.3% pooled adverse event rate; Britton 2021: 6 to 14% lasting effects; Pons 2026: over a third of meditation triggered DP/DR began under 100 hours of practice). Cold immersion drives a 2 to 3 fold noradrenaline surge and showed no mood or anxiety benefit in the 2025 meta-analysis (Cain 2025).
 - Exercise dose for anxiety is already covered by your training (600 to 1,000 MET minutes per week gives g -0.84 at 12 weeks; 2026 network meta-analysis).
 
@@ -368,7 +373,7 @@ Three metrics. Write them in a single line in a notebook. Nothing else is tracke
 | 2. 7 day average Whoop Sleep Performance | Whoop app, weekly view only | 90%+ average, Sleep Consistency 90%+ | If under 85% for two Sundays: move lights out 15 minutes earlier. Nothing else. |
 | 3. Top set loads (bench, row, overhead press, chin up) | Training log | Held or rising | If down more than 5 to 10% for two weeks: apply the Section 4.4 rule (diet break early). |
 
-Anxiety is deliberately not a tracked metric. Tracking it is engaging with it. The one check is the Day 45 tripwire in Section 2.1.
+Anxiety is deliberately not a tracked metric; there is no evidence that tallying it helps and it is a form of monitoring. The only anxiety related check is whether the week's self help module was completed (yes or no).
 
 Monthly only (Day 29, 57, 73, 90): InBody on the same machine, fasted, same time of day, and the four top set loads (bench, row, overhead press, chin up).
 

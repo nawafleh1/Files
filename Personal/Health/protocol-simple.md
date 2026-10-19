@@ -2,14 +2,15 @@
 
 Day 1 = Tue 20 Oct 2026. Day 90 = Sun 17 Jan 2027. Full detail and evidence in protocol.md. This page is what you actually do.
 
-## The anxiety part: three rules, nothing to do
-Rumination is kept alive by engaging with it: monitoring, analysing, logging, doing rituals about it. So this protocol has no daily anxiety tasks. No worry window, no tally, no drill, no therapy course.
+## The anxiety part: what the numbers say
+Doing nothing structured: across 173 trials, people left untreated for 12 weeks improved by g 0.17 and about 15% recovered. Doing a 12 week exposure based CBT program alone from a book, no therapist, no talking: d 0.80 vs waitlist and 44% recovered, not significantly worse than with a therapist (53%). "Just stop thinking about it" has a small rebound effect in meta-analyses, and worry postponement alone did nothing measurable in hypochondriasis. So the plan is structured, silent, and short.
 
 1. Caffeine cap: 100 mg at 08:00, optional 100 mg at 09:45 on lifting days, never more than 200 mg, nothing after 13:00, always with L-theanine. If you are above 300 mg today, taper over a week.
 2. Sleep window: wake 06:30 every day, lights out 21:30, 10 to 30 minutes outdoors within an hour of waking.
-3. Don't engage: no symptom googling, no re asking, no "do I seem normal", no pulse or body checking, no "do I feel real" tests, no Whoop or scale checks except Sunday. A thought shows up, you let it pass, you go back to what you were doing. No technique.
+3. Don't engage: no symptom googling, no re asking, no "do I seem normal", no pulse or body checking, no "do I feel real" tests, no Whoop or scale checks except Sunday. This is half the treatment.
+4. One self help program, alone, Day 7 to Day 90, 1 to 2 hours a week, 2 to 3 evenings at 19:00: either the This Way Up "Health Anxiety" course (6 lessons, about 40 USD, no sessions) or the book "Overcoming Health Anxiety" by Willson and Veale. Pick one on Day 1. Follow it in order. Finish it. Nobody to talk to, nothing to discuss.
 
-One tripwire, checked once, on Day 45 (Thu 3 Dec), never before: if most of the day is still spent on it, do the This Way Up "Health Anxiety" course (self paced, no sessions, about 40 USD). Otherwise it never comes up.
+No worry window, no anxiety tally, no talk therapy. The only question on Sunday is: did I do this week's module, yes or no.
 
 The rule above everything: if anxiety climbs for two weeks, the first thing you drop is the calorie deficit (eat 2,600 kcal). Never the sleep window.
 
@@ -43,7 +44,7 @@ Lights low from 19:30. Phone out of the bedroom at 21:00. Warm 10 minute shower 
 2. 7 day average Whoop Sleep Performance (target 90%+; under 85% two Sundays running means lights out 15 minutes earlier).
 3. Top set loads on bench, row, overhead press, chin up (held or rising; if down 5 to 10% for two weeks, take the diet break early).
 
-Anxiety is not tracked. Tracking it is engaging with it.
+Anxiety is not tracked. Only module completion is.
 
 ## Stop rules
 Dark urine, yellow eyes or skin, itching, right upper belly pain, unexplained nausea: stop ashwagandha, Silexan and saffron, see a doctor. Emotional flatness after adding an item: stop that item only. Rash: stop the last item added. Nothing else changes until 17 Jan 2027.
