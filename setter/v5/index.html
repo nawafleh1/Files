@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+<script>if(!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))document.documentElement.classList.add('js-motion')</script>
+<title>Setter V5</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Setter builds and runs the GTM systems behind B2B SaaS pipeline: data, signals, routing, outbound and CRM.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@600..900&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="site-header">
+<div class="wrap">
+<div class="header-inner">
+<a class="cap cap--brand" href="index.html" aria-label="Setter home"><img src="assets/setter-logo-bone.svg" alt="Setter" width="114" height="22"></a>
+<nav class="cap cap--nav" aria-label="Main"><a href="services.html">Services</a><a href="plays.html">Plays</a><a href="company.html">Company</a></nav>
+<div class="cap cap--cta">
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="mobile-nav"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span class="menu-label">Menu</span></button>
+<a class="btn btn--bone btn--sm" href="book.html" aria-label="Book a review"><span class="btn-label">Book a review</span><span class="btn-ico"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+</div>
+</div>
+<nav id="mobile-nav" class="mobile-nav" aria-label="Mobile" hidden><a href="services.html">Services<svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a><a href="plays.html">Plays<svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a><a href="company.html">Company<svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a><a href="book.html">Book a review<svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></nav>
+</div>
+</header>
+<main>
+<section class="hero2" aria-labelledby="hero-title">
+<div class="wrap">
+<div class="dog-scroll">
+<div class="stage stage--hero stage--full">
+<div class="stage-photo"><img class="dot-fallback" src="assets/dog-dots.svg" alt="A setter on point, drawn in dots" width="1605" height="945"></div>
+<div class="hero-copy">
+<div class="hero-meta rise"><div class="lead"><span class="br">Setter</span><span class="br">GTM engineering for B2B SaaS</span></div></div>
+<h1 id="hero-title" class="h-hero rise rise-2"><span class="dim">Bred to</span> <em class="it">find</em><br>revenue.</h1>
+<p class="sub rise rise-3">The data, signals and plays behind your pipeline. Built inside your stack and kept sharp every day.</p>
+<div class="rise rise-3"><a class="btn btn--bone" href="book.html"><span>Book a review</span><span class="btn-ico"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a></div>
+</div>
+<div class="scroll-hint" aria-hidden="true"><span class="br">Scroll</span><i></i></div>
+<div class="dog-hud" aria-hidden="true"><span class="hud-phase" data-hud-phase>Raw market</span><span class="hud-num dot" data-hud-num>0</span><span class="hud-label">accounts mapped</span><span class="hud-bar"><span data-hud-bar></span></span></div>
+<div class="stage-cards" aria-label="Example workspace: the GTM engine Setter runs for one customer">
+<div class="aura aura--jade mcard mcard--wide" style="--ax:18%;--ay:95%">
+<div class="m-top"><span class="m-label">Northwind Labs</span><span class="m-label">GTM engine</span></div>
+<div class="m-val dot"><span data-scrub data-to="14">14</span><span class="m-unit">workflows live</span></div>
+<div class="gauge" style="--g:70%" aria-hidden="true"><i></i></div>
+</div>
+<div class="aura aura--olive mcard"><span class="m-label">Signals</span><span class="m-val dot"><span data-scrub data-to="37">37</span></span><span class="m-sub">Caught today</span></div>
+<div class="aura aura--cobalt mcard" style="--ax:80%;--ay:90%"><span class="m-label">Speed to lead</span><span class="m-val dot"><span data-scrub data-fmt="time" data-from="2280" data-to="252">4:12</span><span class="m-unit">min</span></span><span class="m-sub">Form fill to rep</span></div>
+<div class="aura aura--lilac mcard" style="--ax:85%;--ay:15%"><span class="m-label">CRM health</span><span class="m-val dot"><span data-scrub data-from="41" data-to="96">96</span><span class="m-unit">%</span></span><span class="m-sub">Key fields complete</span></div>
+<div class="aura aura--pink mcard"><span class="m-label">Meetings</span><span class="m-val dot"><span data-scrub data-to="23">23</span></span><span class="m-sub">Booked this month</span></div>
+</div>
+<div class="stage-caps"><div class="left pill-bar"><span class="br pb"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Find</span><span class="br pb"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>Point</span><span class="br pb"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/></svg>Hold</span></div><span class="br">Example workspace</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="pilot-title" style="padding-top:clamp(56px,7vw,100px)">
+<div class="panel-wrap"><div class="lav panel-round"><div class="wrap section stack">
+<figure class="quote-band">
+<img class="burst" src="assets/sunburst.svg" alt="" width="64" height="64">
+<blockquote id="pilot-title">You bought the tools. <mark class="hl">Nobody&rsquo;s running them.</mark></blockquote>
+</figure>
+<div class="pilot">
+<div class="glass pilot-col">
+<span class="br">Today</span>
+<h3>A stack nobody runs.</h3>
+<ul>
+<li><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg><span>Tools that don&rsquo;t talk</span></li>
+<li><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg><span>Signals nobody acts on</span></li>
+<li><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg><span>A CRM nobody trusts</span></li>
+<li><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg><span>Pipeline you guess at</span></li>
+</ul>
+<p class="result"><span class="dim">Result:</span> more tools, same pipeline.</p>
+</div>
+<div class="iri pilot-col">
+<span class="br">With Setter</span>
+<h3>One engine. Always <em class="it">on point.</em></h3>
+<ul>
+<li><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Built around your ICP</span></li>
+<li><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Inside your own stack</span></li>
+<li><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>Watched every day</span></li>
+<li><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg><span>One number per line, every week</span></li>
+</ul>
+<p class="result"><span class="dim">Result:</span> signals turn into pipeline.</p>
+</div>
+</div>
+</div></div></div>
+</section>
+
+<section aria-label="Setter in numbers" style="padding-top:clamp(56px,7vw,100px)">
+<div class="wrap">
+<div class="numbers">
+<div class="num-item"><span class="big dot" data-count="12">12</span><span class="lbl">Plays ready to run</span></div>
+<div class="num-item"><span class="big dot" data-count="6">6</span><span class="lbl">Parts of your GTM engine, covered</span></div>
+<div class="num-item"><span class="big dot">0</span><span class="lbl">New tools to buy. It all runs in your stack.</span></div>
+<div class="num-item"><span class="big dot" data-count="1">1</span><span class="lbl">GTM engineer who owns the number</span></div>
+</div>
+</div>
+</section>
+
+<section class="section" aria-labelledby="signals-title" style="padding-top:0">
+<div class="wrap sig-grid">
+<div class="orb" data-dot-head>
+<img class="dot-fallback" src="assets/head-dots.svg" alt="A setter's head in profile, drawn in dots" width="1100" height="1100">
+<div class="orb-tags" aria-hidden="true">
+<span class="br" style="top:62%;left:63%">Data</span>
+<span class="br" style="top:70%;left:73%">Signal</span>
+<span class="br" style="top:78%;left:65%">Action</span>
+</div>
+</div>
+<div>
+<div class="signals-head">
+<span class="br">Signals</span>
+<h2 id="signals-title" class="h-sec"><span class="dim">Your GTM engine</span> runs on <em class="it">signals.</em></h2>
+<p class="body-2" style="font-weight:300">Every signal becomes an action: a sequence, an alert, an audience or a route.</p>
+</div>
+<ul class="signals">
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg><span class="badge badge--high">HIGH</span></span>New sales leader hired</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg><span class="badge badge--high">HIGH</span></span>Funding round</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg><span class="badge badge--high">HIGH</span></span>Pricing page visits</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h5l1.5 3h5l1.5-3h5"/><path d="M5 5h14l2 8v6H3v-6z"/></svg><span class="badge badge--high">HIGH</span></span>Inbound form fill</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg><span class="badge badge--high">HIGH</span></span>Product usage spike</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-6 7-6s7 2 7 6"/><path d="M19 8v6M16 11h6"/></svg><span class="badge badge--high">HIGH</span></span>Champion changed jobs</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 9 5-9 5-9-5 9-5z"/><path d="m3 13 9 5 9-5"/></svg><span class="badge badge--med">MED</span></span>New tool installed</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><span class="badge badge--med">MED</span></span>Hiring for the problem</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18M7 21h10M5 7h14"/><path d="m5 7-3 6a3 3 0 0 0 6 0z"/><path d="m19 7-3 6a3 3 0 0 0 6 0z"/></svg><span class="badge badge--med">MED</span></span>Comparing vendors</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="5" rx="1"/><path d="M5 9v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9"/><path d="M10 13h4"/></svg><span class="badge badge--med">MED</span></span>Closed-lost, new signal</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg><span class="badge badge--med">MED</span></span>Trial went quiet</li>
+<li class="signal"><span class="signal-icon"><svg class="i" aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="m12 18 4-6"/></svg><span class="badge badge--med">MED</span></span>Usage dropping</li>
+</ul>
+<div style="margin-top:30px"><a class="link-sq" href="plays.html"><span>Browse the play library</span><span class="sq"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a></div>
+</div>
+</div>
+</section>
+
+<section class="section" aria-label="Example signal feed" style="padding-top:0">
+<div class="wrap" style="display:grid;gap:14px">
+<div class="ticker-cap"><span class="br">Live signal feed</span><span class="br">Example workspace</span></div>
+</div>
+<div class="ticker-wrap">
+<div class="ticker"><div class="ticker-track"><span class="tk" style="--a:var(--jade)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><b>Funding round</b><span class="co">Northwind Labs</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Sequence started</span><em>2m</em></span><span class="tk" style="--a:var(--slate)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h5l1.5 3h5l1.5-3h5"/><path d="M5 5h14l2 8v6H3v-6z"/></svg></span><b>Demo request</b><span class="co">Arcpoint</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Routed to Sam</span><em>14s</em></span><span class="tk" style="--a:var(--ember)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg></span><b>Usage spike</b><span class="co">Tidewell</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Rep alerted</span><em>6m</em></span><span class="tk" style="--a:var(--olive)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg></span><b>Hiring SDRs</b><span class="co">Fernhill AI</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Buyer found</span><em>11m</em></span><span class="tk" style="--a:var(--lilac)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="5" rx="1"/><path d="M5 9v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9"/><path d="M10 13h4"/></svg></span><b>Closed-lost, new signal</b><span class="co">Quarry Labs</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Deal reopened</span><em>18m</em></span><span class="tk" style="--a:var(--sand)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span><b>Pricing page, 3 visits</b><span class="co">Lumen Data</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Ad audience</span><em>24m</em></span><span class="tk-dup" aria-hidden="true" style="display:contents"><span class="tk" style="--a:var(--jade)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span><b>Funding round</b><span class="co">Northwind Labs</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Sequence started</span><em>2m</em></span><span class="tk" style="--a:var(--slate)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 13h5l1.5 3h5l1.5-3h5"/><path d="M5 5h14l2 8v6H3v-6z"/></svg></span><b>Demo request</b><span class="co">Arcpoint</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Routed to Sam</span><em>14s</em></span><span class="tk" style="--a:var(--ember)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12h4l3-7 4 14 3-7h4"/></svg></span><b>Usage spike</b><span class="co">Tidewell</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Rep alerted</span><em>6m</em></span><span class="tk" style="--a:var(--olive)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg></span><b>Hiring SDRs</b><span class="co">Fernhill AI</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Buyer found</span><em>11m</em></span><span class="tk" style="--a:var(--lilac)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="5" rx="1"/><path d="M5 9v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V9"/><path d="M10 13h4"/></svg></span><b>Closed-lost, new signal</b><span class="co">Quarry Labs</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Deal reopened</span><em>18m</em></span><span class="tk" style="--a:var(--sand)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7S2 12 2 12z"/><circle cx="12" cy="12" r="3"/></svg></span><b>Pricing page, 3 visits</b><span class="co">Lumen Data</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Ad audience</span><em>24m</em></span></span></div></div>
+<div class="ticker ticker--rev"><div class="ticker-track"><span class="tk" style="--a:var(--jade)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-6 7-6s7 2 7 6"/><path d="M19 8v6M16 11h6"/></svg></span><b>Champion changed jobs</b><span class="co">Halcyon</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Warm intro drafted</span><em>3m</em></span><span class="tk" style="--a:var(--ember)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg></span><b>Trial went quiet</b><span class="co">Brightline</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Save play</span><em>9m</em></span><span class="tk" style="--a:var(--slate)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h7"/></svg></span><b>Lead unworked 10 min</b><span class="co">Copperleaf</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Re-routed</span><em>12m</em></span><span class="tk" style="--a:var(--lilac)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span><b>Duplicate account</b><span class="co">Arcpoint</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Merged</span><em>15m</em></span><span class="tk" style="--a:var(--olive)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.5 3.6-7 8-7s8 2.5 8 7"/></svg></span><b>New VP of Sales</b><span class="co">Meridian</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Owner alerted</span><em>21m</em></span><span class="tk" style="--a:var(--sand)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><b>Event attendee</b><span class="co">Westbound</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Follow-up sent</span><em>33m</em></span><span class="tk-dup" aria-hidden="true" style="display:contents"><span class="tk" style="--a:var(--jade)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="4"/><path d="M2 21c0-4 3-6 7-6s7 2 7 6"/><path d="M19 8v6M16 11h6"/></svg></span><b>Champion changed jobs</b><span class="co">Halcyon</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Warm intro drafted</span><em>3m</em></span><span class="tk" style="--a:var(--ember)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M10 9v6M14 9v6"/></svg></span><b>Trial went quiet</b><span class="co">Brightline</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Save play</span><em>9m</em></span><span class="tk" style="--a:var(--slate)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h7"/></svg></span><b>Lead unworked 10 min</b><span class="co">Copperleaf</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Re-routed</span><em>12m</em></span><span class="tk" style="--a:var(--lilac)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span><b>Duplicate account</b><span class="co">Arcpoint</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Merged</span><em>15m</em></span><span class="tk" style="--a:var(--olive)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.5 3.6-7 8-7s8 2.5 8 7"/></svg></span><b>New VP of Sales</b><span class="co">Meridian</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Owner alerted</span><em>21m</em></span><span class="tk" style="--a:var(--sand)"><span class="tk-ico"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span><b>Event attendee</b><span class="co">Westbound</span><span class="arrow"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></span><span class="act">Follow-up sent</span><em>33m</em></span></span></div></div>
+</div>
+</section>
+
+<section class="section chapters" id="services" aria-labelledby="ch-title" style="padding-top:0">
+<div class="wrap">
+<div class="head-left" style="margin-bottom:clamp(36px,5vw,64px)">
+<span class="br">How Setter works</span>
+<h2 id="ch-title" class="h-sec"><span class="dim">Find. Point.</span> <em class="it">Hold.</em></h2>
+<p class="sub">How a setter hunts, applied to your pipeline.</p>
+</div>
+<div class="ch-grid">
+<div class="ch-sticky">
+<div class="ch-dog" data-ch-dog data-mode="find">
+<div class="ch-labels pill-bar" aria-hidden="true"><span class="br pb is-on" data-ch-label="find"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Find</span><span class="br pb" data-ch-label="point"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg>Point</span><span class="br pb" data-ch-label="hold"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3 8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6z"/></svg>Hold</span></div>
+<img class="dot-fallback" src="assets/dog-dots.svg" alt="" width="1605" height="945">
+</div>
+</div>
+<div class="ch-list">
+
+<article class="ch is-active" data-ch="find">
+<div class="ch-head"><span class="ch-num dot">01</span><h3>Find</h3></div>
+<p class="ch-lede">Map the market. Catch the moment an account is ready.</p>
+<div class="ch-lines">
+<a class="ch-line" href="services.html#data" style="--a:var(--jade)"><i class="swatch"></i><b>Data and Signals</b><span>Market mapped, enriched and scored</span><span class="sq sq--glass"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+<a class="ch-line" href="services.html#product" style="--a:var(--ember)"><i class="swatch"></i><b>Product Signals</b><span>Usage turned into sales signals</span><span class="sq sq--glass"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+</div>
+<div class="ch-visual" aria-hidden="true">
+<div class="ui-card">
+<div class="mini-row mini-row--head"><span>ACCOUNT</span><span>SIGNAL</span><span>SCORE</span></div>
+<div class="mini-row"><span>Northwind Labs</span><span class="muted">Series B</span><span class="status status--booked">TIER 1</span></div>
+<div class="mini-row"><span>Tidewell</span><span class="muted">5 seats in 7 days</span><span class="status status--booked">TIER 1</span></div>
+<div class="mini-row"><span>Fernhill AI</span><span class="muted">Hiring SDRs</span><span class="status status--signal">TIER 2</span></div>
+<div class="mini-row"><span>Quarry Labs</span><span class="muted">New VP of Sales</span><span class="status status--signal">TIER 2</span></div>
+</div>
+</div>
+</article>
+
+<article class="ch" data-ch="point">
+<div class="ch-head"><span class="ch-num dot">02</span><h3>Point</h3></div>
+<p class="ch-lede">Aim every rep and every campaign at the right account, at the right time.</p>
+<div class="ch-lines">
+<a class="ch-line" href="services.html#outbound" style="--a:var(--olive)"><i class="swatch"></i><b>Outbound Systems</b><span>Signal-led sequences, checked by a person</span><span class="sq sq--glass"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+<a class="ch-line" href="services.html#abm" style="--a:var(--sand)"><i class="swatch"></i><b>ABM Programs</b><span>Sales, ads and outreach on the same accounts</span><span class="sq sq--glass"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+</div>
+<div class="ch-visual" aria-hidden="true">
+<div class="notif-stack">
+<div class="back back--2"></div><div class="back back--1"></div>
+<div class="ui-card notif" style="position:relative;z-index:2"><span class="notif-app"><img src="assets/setter-mark-bone.svg" alt="" width="30" height="18"></span><div style="flex:1;min-width:0"><div class="notif-meta"><span>Setter &middot; #pipeline</span><span>now</span></div><div class="notif-title">Meeting booked</div><div class="notif-sub">Northwind Labs &middot; funding signal play</div></div></div>
+<div class="ui-card notif"><span class="notif-app"><img src="assets/setter-mark-bone.svg" alt="" width="30" height="18"></span><div style="flex:1;min-width:0"><div class="notif-meta"><span>Setter &middot; #pipeline</span><span>2h ago</span></div><div class="notif-title">Positive reply</div><div class="notif-sub">Lumen Data &middot; Tier 1 program</div></div></div>
+</div>
+</div>
+</article>
+
+<article class="ch" data-ch="hold">
+<div class="ch-head"><span class="ch-num dot">03</span><h3>Hold</h3></div>
+<p class="ch-lede">Nothing slips. Every lead routed in minutes, every record you can trust.</p>
+<div class="ch-lines">
+<a class="ch-line" href="services.html#inbound" style="--a:var(--slate)"><i class="swatch"></i><b>Inbound and Routing</b><span>Form fill to the right rep in minutes</span><span class="sq sq--glass"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+<a class="ch-line" href="services.html#revops" style="--a:var(--lilac)"><i class="swatch"></i><b>RevOps and CRM</b><span>Clean data and reports that add up</span><span class="sq sq--glass"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+</div>
+<div class="ch-visual" aria-hidden="true">
+<div class="ui-card health" style="--a:var(--lilac)">
+<div class="health-top"><span>CRM health</span><span class="dot"><span data-count="96">96</span><span style="font-family:var(--sans);font-weight:300;font-size:13px;margin-left:3px">%</span></span></div>
+<div class="health-row"><span>Leads routed</span><span class="hb"><span style="width:100%"></span></span><b>100%</b></div>
+<div class="health-row"><span>Fields complete</span><span class="hb"><span style="width:94%"></span></span><b>94%</b></div>
+<div class="health-row"><span>Source attributed</span><span class="hb"><span style="width:89%"></span></span><b>89%</b></div>
+<div class="health-row"><span>Duplicates merged</span><span class="hb"><span style="width:100%"></span></span><b>100%</b></div>
+</div>
+</div>
+</article>
+
+</div>
+</div>
+</div>
+</section>
+
+<section class="section" aria-labelledby="trace-title" style="padding-top:0">
+<div class="wrap stack">
+<div style="display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:20px">
+<div class="head-left">
+<span class="br">Example trace</span>
+<h2 id="trace-title" class="h-sec"><span class="dim">One signal,</span> <em class="it">start to finish.</em></h2>
+</div>
+<p class="small" style="max-width:34ch">Agents do every step in seconds. A person checks the one that reaches a buyer.</p>
+</div>
+<div class="glass trace" data-trace>
+<div class="trace-track" aria-hidden="true"><i></i></div>
+<ol class="trace-steps">
+<li class="ts" style="--a:var(--jade)"><span class="ts-node"><span class="ts-ico"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg></span></span><span class="ts-t">00:00</span><b>Signal</b><span class="ts-d">Northwind Labs raises a Series B</span></li>
+<li class="ts" style="--a:var(--jade)"><span class="ts-node"><span class="ts-ico"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5c.7 4.8 3 7.1 7.8 7.8-4.8.7-7.1 3-7.8 7.8-.7-4.8-3-7.1-7.8-7.8 4.8-.7 7.1-3 7.8-7.8z"/></svg></span></span><span class="ts-t">00:04</span><b>Enriched</b><span class="ts-d">140 people, HubSpot, hiring 3 SDRs</span></li>
+<li class="ts" style="--a:var(--jade)"><span class="ts-node"><span class="ts-ico"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="m12 18 4-6"/></svg></span></span><span class="ts-t">00:09</span><b>Scored</b><span class="ts-d">Tier 1, fit 92</span></li>
+<li class="ts" style="--a:var(--slate)"><span class="ts-node"><span class="ts-ico"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="19" r="2"/><circle cx="18" cy="5" r="2"/><path d="M8 19h7a3.5 3.5 0 0 0 0-7H9a3.5 3.5 0 0 1 0-7h7"/></svg></span></span><span class="ts-t">00:12</span><b>Routed</b><span class="ts-d">Sam, West team, alert in Slack</span></li>
+<li class="ts ts--human" style="--a:var(--pointer)"><span class="ts-node"><span class="ts-ico"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.5 3.6-7 8-7s8 2.5 8 7"/></svg></span></span><span class="ts-t">00:31</span><b>Approved</b><span class="ts-d">Your GTM engineer signs off the first message</span></li>
+<li class="ts" style="--a:var(--olive)"><span class="ts-node"><span class="ts-ico"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg></span></span><span class="ts-t">Day 2</span><b>Meeting</b><span class="ts-d">VP of Sales, Thursday 2pm</span></li>
+<li class="ts" style="--a:var(--sand)"><span class="ts-node"><span class="ts-ico"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m3 17 6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg></span></span><span class="ts-t">Week 3</span><b>Pipeline</b><span class="ts-d">$48K opportunity in your CRM</span></li>
+</ol>
+</div>
+</div>
+</section>
+
+<section class="section" aria-labelledby="vs-title" style="padding-bottom:0">
+<div class="panel-wrap"><div class="paper panel-round"><div class="wrap section">
+<div class="stack">
+<div class="head-center">
+<span class="br">Why Setter</span>
+<h2 id="vs-title" class="h-sec"><span class="dim">Not another tool.</span><br>Not another <em class="it">agency.</em></h2>
+<p class="sub">Setter is an AI-native GTM engineering team. You get the speed of software, the judgment of engineers, and one person who owns the number.</p>
+</div>
+<div class="table-scroll">
+<table class="vs">
+<thead><tr><th scope="col"><span class="visually-hidden">What you get</span></th><th scope="col" class="us"><span class="us-head"><img src="assets/setter-logo.svg" alt="Setter" width="93" height="18"></span></th><th scope="col">GTM software</th><th scope="col">In-house GTM engineer</th><th scope="col">Agency</th><th scope="col">Consultant</th></tr></thead>
+<tbody>
+<tr><th scope="row"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="6" width="12" height="12" rx="2"/><rect x="9.5" y="9.5" width="5" height="5" rx="1"/><path d="M9 2.5V6M15 2.5V6M9 18v3.5M15 18v3.5M2.5 9H6M2.5 15H6M18 9h3.5M18 15h3.5"/></svg>AI workflows with human judgment</th><td class="us"><span class="yes" role="img" aria-label="Yes"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span></td><td><span class="no" role="img" aria-label="No"><svg class="i" aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg></span></td><td>Depends on the hire</td><td><span class="no" role="img" aria-label="No"><svg class="i" aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg></span></td><td><span class="no" role="img" aria-label="No"><svg class="i" aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg></span></td></tr>
+<tr><th scope="row"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M6 8.5v1a3 3 0 0 0 3 3h6a3 3 0 0 0 3-3v-1M12 12.5v3"/></svg>Builds and runs the system</th><td class="us"><span class="yes" role="img" aria-label="Yes"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span></td><td>You run it</td><td><span class="yes" role="img" aria-label="Yes"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span></td><td>Runs, rarely builds</td><td>Designs only</td></tr>
+<tr><th scope="row"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg>Data, outbound, inbound and CRM</th><td class="us"><span class="yes" role="img" aria-label="Yes"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span></td><td>Separate tools</td><td>One person, stretched</td><td>Usually outbound only</td><td><span class="no" role="img" aria-label="No"><svg class="i" aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg></span></td></tr>
+<tr><th scope="row"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>Runs inside your stack</th><td class="us"><span class="yes" role="img" aria-label="Yes"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span></td><td><span class="yes" role="img" aria-label="Yes"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span></td><td><span class="yes" role="img" aria-label="Yes"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span></td><td>Often their own</td><td><span class="no" role="img" aria-label="No"><svg class="i" aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg></span></td></tr>
+<tr><th scope="row"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Time to first workflow live</th><td class="us">[X weeks]</td><td>Depends on your team</td><td>Hiring plus ramp</td><td>Varies</td><td><span class="no" role="img" aria-label="No"><svg class="i" aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg></span></td></tr>
+<tr><th scope="row"><svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 18a8 8 0 1 1 16 0"/><path d="m12 18 4-6"/></svg>One person owns the number</th><td class="us"><span class="yes" role="img" aria-label="Yes"><svg class="i" aria-hidden="true" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></span></td><td><span class="no" role="img" aria-label="No"><svg class="i" aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg></span></td><td>Sometimes</td><td>Rarely</td><td><span class="no" role="img" aria-label="No"><svg class="i" aria-hidden="true" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7l10 10M17 7 7 17"/></svg></span></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</div></div></div>
+</section>
+
+<section class="section" aria-labelledby="faq-title" style="padding-top:0">
+<div class="wrap faq-layout">
+<div class="head-left">
+<span class="br">FAQ</span>
+<h2 id="faq-title" class="h-sec"><span class="dim">Questions,</span> <em class="it">answered.</em></h2>
+<p class="body-2" style="font-weight:300">Anything else, ask us on a call.</p>
+<a class="link-sq" href="book.html"><span>Book a review</span><span class="sq"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+</div>
+<div class="glass faq">
+<details open><summary>What is GTM engineering?<span class="plus"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p class="answer">The systems work behind revenue: getting the right data, signals and automation into your CRM so every rep, campaign and play works on the right accounts at the right time.</p></details>
+<details><summary>Is Setter software or an agency?<span class="plus"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p class="answer">Neither, quite. We build the workflows inside your stack, run them every day and own the number each one moves. There is no new platform for your team to learn.</p></details>
+<details><summary>Do you replace our RevOps team?<span class="plus"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p class="answer">No. We give them a GTM engineering team on tap. They keep the strategy and the ownership. We build and run the systems.</p></details>
+<details><summary>Do we own what you build?<span class="plus"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p class="answer">Yes. Everything runs in your accounts: your CRM, your data tools, your sending domains. If you leave, it all stays with you.</p></details>
+<details><summary>Which tools do you work with?<span class="plus"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p class="answer">HubSpot and Salesforce for CRM, plus the data, enrichment and sequencing tools you already pay for. If you have none, we set up the stack with you.</p></details>
+<details><summary>Where should we start?<span class="plus"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg></span></summary><p class="answer">With a GTM systems review. Most teams then start with one part of the engine, usually Find, and add the rest once it's working.</p></details>
+</div>
+</div>
+</section>
+
+<section class="section" style="padding-top:0" aria-labelledby="cta-title">
+<div class="wrap"><div class="cta-stage" data-dot-field>
+<div class="cta-bg" aria-hidden="true"></div>
+<div class="cta">
+<img class="cta-mark" src="assets/setter-mark-bone.svg" alt="" width="120" height="70">
+<p class="br">Get started</p>
+<h2 id="cta-title" class="h-sec"><span class="dim">Point us at</span> <em class="it">your pipeline.</em></h2>
+<p class="sub">A 30-minute GTM systems review. You leave with the first three plays we'd build.</p>
+<a class="btn btn--bone" href="book.html"><span>Book a review</span><span class="btn-ico"><svg class="i" aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
+</div>
+</div></div>
+</section>
+
+</main>
+<footer class="site-footer">
+<div class="wrap">
+<div class="footer-top">
+<div class="footer-brand">
+<img src="assets/setter-mark-bone.svg" alt="" width="120" height="70">
+<p>The GTM engine behind B2B SaaS pipeline. Agents do the work. GTM engineers make the calls.</p>
+<p class="footer-mail">hello@[yourdomain].com</p>
+</div>
+<div class="footer-cols">
+<div><p class="br">Services</p><ul><li><a href="services.html#find">Find</a></li><li><a href="services.html#point">Point</a></li><li><a href="services.html#hold">Hold</a></li></ul></div>
+<div><p class="br">Resources</p><ul><li><a href="plays.html">Play library</a></li><li><a href="services.html#how">How we work</a></li></ul></div>
+<div><p class="br">Company</p><ul><li><a href="company.html">About</a></li><li><a href="book.html">Book a review</a></li><li><a href="company.html#contact">Contact</a></li></ul></div>
+<div><p class="br">Legal</p><ul><li><a href="company.html#legal">Privacy</a></li><li><a href="company.html#legal">Terms</a></li></ul></div>
+</div>
+</div>
+<p class="giant" aria-hidden="true">setter</p>
+<div class="giant-caps"><span class="br">Bred to find revenue</span><span class="dots-row" aria-hidden="true">&bull;&bull;&bull;&bull;&bull;&bull;&bull;</span><span class="br">Agents for the work, engineers for the calls</span><span class="small">&copy; 2026 Setter</span></div>
+</div>
+</footer>
+<script src="site.js"></script>
+<script src="assets/dog-dots.js"></script>
+<script src="dots.js"></script>
+</body>
+</html>
