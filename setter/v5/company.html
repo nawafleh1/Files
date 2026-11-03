@@ -7,12 +7,30 @@
 <script>if(!(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))document.documentElement.classList.add('js-motion')</script>
 <title>Company · Setter</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Why Setter exists and how we work.">
+<meta name="description" content="Why Setter exists, how we work and who you will work with.">
+<meta name="theme-color" content="#151615">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Setter">
+<meta property="og:title" content="Company · Setter">
+<meta property="og:description" content="Why Setter exists, how we work and who you will work with.">
+<meta property="og:image" content="assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Company · Setter">
+<meta name="twitter:description" content="Why Setter exists, how we work and who you will work with.">
+<meta name="twitter:image" content="assets/og.png">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@600..900&family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Doto:wght@600..900&family=Instrument+Serif:ital@0;1&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Doto:wght@600..900&family=Instrument+Serif:ital@0;1&display=swap"></noscript>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+<a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
 <div class="wrap">
 <div class="header-inner">
@@ -26,7 +44,7 @@
 <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile" hidden><a href="services.html">Services<svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a><a href="plays.html">Plays<svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a><a href="company.html">Company<svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a><a href="book.html">Book a review<svg class="i" aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg></a></nav>
 </div>
 </header>
-<main>
+<main id="main">
 <section aria-labelledby="page-title">
 <div class="wrap hero-top" data-hero-dog>
 <div class="hero-meta rise"><div class="lead"><span class="br">Company</span><span class="br">Why Setter exists</span></div><span class="small">&copy; 2026</span></div>
@@ -38,7 +56,7 @@
 <section aria-labelledby="story-title" style="padding-bottom:var(--section)">
 <div class="wrap sig-grid">
 <div class="orb" data-dot-head>
-<img class="dot-fallback" src="assets/head-dots.svg" alt="A setter's head in profile, drawn in dots" width="1100" height="1100">
+<div class="dot-fallback dot-fallback--head" role="img" aria-label="A setter's head in profile, drawn in dots"></div>
 <div class="orb-tags" aria-hidden="true">
 <span class="br" style="top:62%;left:63%">Find</span>
 <span class="br" style="top:70%;left:73%">Point</span>
@@ -66,10 +84,10 @@
 <h2 id="principles-title" class="h-sec"><span class="dim">Four rules</span> we don't bend.</h2>
 </div>
 <div class="principles">
-<div class="aura aura--jade principle" style="--ax:85%;--ay:10%"><span class="dot" style="font-size:34px">01</span><h3>Outcomes over activity</h3><p>We don't report workflows built or tasks run. We report the number each service line owns.</p></div>
+<div class="aura aura--jade principle" style="--ax:85%;--ay:10%"><span class="dot" style="font-size:34px">01</span><h3>Outcomes over activity</h3><p>We don't report plays built or tasks run. We report the number each service owns.</p></div>
 <div class="aura aura--slate principle" style="--ax:15%;--ay:10%"><span class="dot" style="font-size:34px">02</span><h3>A person signs off</h3><p>Nothing reaches a buyer or changes your CRM in bulk until your GTM engineer has checked it.</p></div>
 <div class="aura aura--olive principle" style="--ax:85%;--ay:90%"><span class="dot" style="font-size:34px">03</span><h3>Your stack, your data</h3><p>Everything we build lives in your tools and stays yours. Nothing is locked in our system.</p></div>
-<div class="aura aura--ember principle" style="--ax:15%;--ay:90%"><span class="dot" style="font-size:34px">04</span><h3>Show the work</h3><p>Every workflow is documented, every run is logged, and your team can see all of it.</p></div>
+<div class="aura aura--ember principle" style="--ax:15%;--ay:90%"><span class="dot" style="font-size:34px">04</span><h3>Show the work</h3><p>Every play is documented, every run is logged, and your team can see all of it.</p></div>
 </div>
 </div>
 </section>
@@ -81,11 +99,11 @@
 <h2 id="team-title" class="h-sec"><span class="dim">A GTM engineer,</span> not a <em class="it">ticket queue.</em></h2>
 </div>
 <div class="glass founder">
-<div class="founder-photo"><img src="assets/setter-mark-bone.svg" alt="" width="105" height="62"></div>
+<div class="founder-photo"><img src="assets/setter-mark-bone.svg" alt="" width="105" height="62" loading="lazy" decoding="async"></div>
 <div style="display:grid;gap:10px;min-width:0;padding:8px">
 <span class="br">Founder</span>
-<h3 class="h-card">[Founder name]</h3>
-<p class="body-2" style="font-weight:300">[Two or three lines on your GTM background, the systems and teams you've built, and why you started Setter.]</p>
+<h3 class="h-card">Alex Carter</h3>
+<p class="body-2" style="font-weight:300">Built and ran GTM systems inside B2B SaaS teams for years, then started Setter to give every team a GTM engineer who owns the number.</p>
 <a class="link-sq" href="book.html"><span>Book a review</span><span class="sq"><svg class="i" aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M8 7h9v9"/></svg></span></a>
 </div>
 </div>
@@ -100,8 +118,8 @@
 <p class="sub">For anything that isn't a systems review: partnerships, press or careers.</p>
 </div>
 <div style="display:grid;gap:12px">
-<p style="font-family:var(--mono);font-size:18px">hello@[yourdomain].com</p>
-<p id="legal" class="small">Privacy policy and terms of service: [link your policies here].</p>
+<p style="font-family:var(--mono);font-size:18px"><a href="mailto:hello@setter.so">hello@setter.so</a></p>
+<p id="legal" class="small"><a href="privacy.html">Privacy policy</a></p>
 </div>
 </div></div></div>
 </section>
@@ -110,7 +128,7 @@
 <div class="wrap"><div class="cta-stage" data-dot-field>
 <div class="cta-bg" aria-hidden="true"></div>
 <div class="cta">
-<img class="cta-mark" src="assets/setter-mark-bone.svg" alt="" width="120" height="70">
+<img class="cta-mark" src="assets/setter-mark-bone.svg" alt="" width="120" height="70" loading="lazy" decoding="async">
 <p class="br">Get started</p>
 <h2 id="cta-title" class="h-sec"><span class="dim">Point us at</span> <em class="it">your pipeline.</em></h2>
 <p class="sub">A 30-minute GTM systems review. You leave with the first three plays we'd build.</p>
@@ -124,15 +142,15 @@
 <div class="wrap">
 <div class="footer-top">
 <div class="footer-brand">
-<img src="assets/setter-mark-bone.svg" alt="" width="120" height="70">
+<img src="assets/setter-mark-bone.svg" alt="" width="120" height="70" loading="lazy" decoding="async">
 <p>The GTM engine behind B2B SaaS pipeline. Agents do the work. GTM engineers make the calls.</p>
-<p class="footer-mail">hello@[yourdomain].com</p>
+<p class="footer-mail"><a href="mailto:hello@setter.so">hello@setter.so</a></p>
 </div>
 <div class="footer-cols">
 <div><p class="br">Services</p><ul><li><a href="services.html#find">Find</a></li><li><a href="services.html#point">Point</a></li><li><a href="services.html#hold">Hold</a></li></ul></div>
 <div><p class="br">Resources</p><ul><li><a href="plays.html">Play library</a></li><li><a href="services.html#how">How we work</a></li></ul></div>
 <div><p class="br">Company</p><ul><li><a href="company.html">About</a></li><li><a href="book.html">Book a review</a></li><li><a href="company.html#contact">Contact</a></li></ul></div>
-<div><p class="br">Legal</p><ul><li><a href="company.html#legal">Privacy</a></li><li><a href="company.html#legal">Terms</a></li></ul></div>
+<div><p class="br">Legal</p><ul><li><a href="privacy.html">Privacy</a></li></ul></div>
 </div>
 </div>
 <p class="giant" aria-hidden="true">setter</p>
