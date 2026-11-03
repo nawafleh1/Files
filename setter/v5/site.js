@@ -268,6 +268,99 @@
     liveCards.forEach(function (c) { lo.observe(c); });
   }
 
+  // Play builder: pick a problem, watch it analyse, watch the play build itself
+  var builder = $('[data-builder]');
+  if (builder) {
+    var bData = JSON.parse($('[data-builder-data]', builder).textContent);
+    var icon = function (n) { var el = $('[data-ico="' + n + '"]', builder); return el ? el.innerHTML : ''; };
+    var bIdle = $('.b-idle', builder), bRun = $('.b-run', builder), bStatus = $('.b-status', builder), bPct = $('.b-pct', builder);
+    var bBar = $('.b-bar i', builder), bLog = $('.b-log', builder), bFlow = $('.b-flow', builder), bWrap = $('.b-flow-wrap', builder), bRes = $('.b-result', builder);
+    var bOut = $('.b-out', builder), bChips = $$('.b-issue', builder), bTimers = [], bRaf = 0;
+    var later = function (fn, ms) { bTimers.push(setTimeout(fn, ms)); };
+    var stopAll = function () { bTimers.forEach(clearTimeout); bTimers = []; cancelAnimationFrame(bRaf); };
+    var fmtB = function (d, v) {
+      if (d.fmt === 'time') return Math.floor(v / 60) + ':' + ('0' + Math.floor(v % 60)).slice(-2);
+      if (d.fmt === 'pct') return Math.round(v) + '%';
+      if (d.fmt === 'money') return '$' + Math.round(v) + 'K';
+      return Math.round(v).toLocaleString('en-US');
+    };
+    var tween = function (dur, step) {
+      var t0 = performance.now();
+      var f = function (now) { var k = Math.min(1, (now - t0) / dur); step(k); if (k < 1) bRaf = requestAnimationFrame(f); };
+      bRaf = requestAnimationFrame(f);
+    };
+    var show = function (el) { requestAnimationFrame(function () { requestAnimationFrame(function () { el.classList.add('is-in'); }); }); };
+    var build = function (d) {
+      stopAll();
+      bIdle.hidden = true; bRun.hidden = false; bRes.hidden = true; bRes.classList.remove('is-in');
+      builder.classList.remove('is-done'); builder.classList.add('is-busy');
+      bStatus.textContent = 'Analyzing'; bPct.textContent = '0%'; bBar.style.width = '0%';
+      bLog.innerHTML = ''; bFlow.innerHTML = '';
+      bWrap.style.setProperty('--n', d.nodes.length); bWrap.style.setProperty('--tp', '0%');
+      var agents = d.nodes.filter(function (n) { return n.kind !== 'human'; }).length;
+      var human = d.nodes.some(function (n) { return n.kind === 'human'; });
+      var lines = ['Reading the problem: ' + d.label.toLowerCase(), 'Checking signals: ' + d.signals, 'Picking agents for ' + agents + ' steps',
+        human ? 'Adding a human check' : 'Setting guardrails and logging', 'Wiring it into ' + d.tools];
+      var stepT = reduceMotion ? 0 : 430, nodeT = reduceMotion ? 0 : 380;
+      lines.forEach(function (txt, i) {
+        later(function () {
+          var prev = bLog.lastElementChild;
+          if (prev) prev.classList.add('is-done');
+          var li = document.createElement('li');
+          li.innerHTML = '<span class="lg-ico">' + icon('check') + '</span><span>' + txt + '</span>';
+          bLog.appendChild(li);
+          show(li);
+        }, i * stepT);
+      });
+      var analyzeMs = reduceMotion ? 0 : lines.length * stepT + 320;
+      if (!reduceMotion) tween(analyzeMs, function (k) { var v = Math.round(k * 100); bPct.textContent = v + '%'; bBar.style.width = v + '%'; });
+      later(function () {
+        var last = bLog.lastElementChild;
+        if (last) last.classList.add('is-done');
+        bPct.textContent = '100%'; bBar.style.width = '100%';
+        bStatus.textContent = 'Building your play';
+        d.nodes.forEach(function (n, i) {
+          later(function () {
+            var el = document.createElement('div');
+            el.className = 'bn bn--' + n.kind;
+            el.innerHTML = '<span class="bn-ico">' + icon(n.ico) + '</span><b>' + n.label + '</b><small>' + (n.kind === 'human' ? 'A person' : n.kind === 'start' ? 'Trigger' : 'Agent') + '</small>';
+            bFlow.appendChild(el);
+            show(el);
+            bWrap.style.setProperty('--tp', (d.nodes.length > 1 ? i / (d.nodes.length - 1) * 100 : 100) + '%');
+          }, i * nodeT);
+        });
+        later(function () {
+          bStatus.textContent = 'Ready';
+          builder.classList.remove('is-busy'); builder.classList.add('is-done');
+          $('.b-play', bRes).textContent = d.play;
+          $('.b-meta', bRes).textContent = d.runs + ' · ' + d.part + ' · moves ' + d.moves;
+          $('.b-num-l', bRes).innerHTML = '<span>' + d.numLabel + '</span><em>[Example run]</em>';
+          bRes.hidden = false;
+          show(bRes);
+          var num = $('.b-num', bRes);
+          if (reduceMotion) num.textContent = fmtB(d, d.num);
+          else tween(1300, function (k) { num.textContent = fmtB(d, d.num * (k === 1 ? 1 : 1 - Math.pow(2, -10 * k))); });
+        }, d.nodes.length * nodeT + (reduceMotion ? 0 : 260));
+      }, analyzeMs);
+    };
+    bChips.forEach(function (c) {
+      c.addEventListener('click', function () {
+        bChips.forEach(function (o) { o.setAttribute('aria-pressed', o === c ? 'true' : 'false'); });
+        var d = bData.filter(function (x) { return x.id === c.getAttribute('data-issue'); })[0];
+        if (!d) return;
+        build(d);
+        if (window.innerWidth <= 960 && bOut.scrollIntoView) bOut.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'start' });
+      });
+    });
+    $('.b-again', builder).addEventListener('click', function () {
+      stopAll();
+      bChips.forEach(function (o) { o.setAttribute('aria-pressed', 'false'); });
+      bRun.hidden = true; bIdle.hidden = false;
+      builder.classList.remove('is-done', 'is-busy');
+      if (bChips[0]) bChips[0].focus();
+    });
+  }
+
   // Copy buttons
   $$('[data-copy]').forEach(function (btn) {
     btn.addEventListener('click', function () {
