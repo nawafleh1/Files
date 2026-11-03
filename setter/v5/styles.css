@@ -993,24 +993,16 @@ body { background: radial-gradient(90% 50% at 85% -5%, rgba(226, 88, 155, 0.08),
 .cap { background: rgba(20, 21, 20, 0.74); box-shadow: 0 0 0 1px rgba(232, 229, 221, 0.1), inset 0 1px 0 rgba(255, 255, 255, 0.06), 0 16px 34px -18px rgba(0, 0, 0, 0.7); }
 .cap--cta .btn--bone { background: #E8E5DD; color: #101110; }
 
-/* ==================== V5: the landing is one green meadow ==================== */
-:root { --bg: #11130E; --bg-2: #171A13; --card: #191C16; --card-2: #20241C; --wrapx: max(var(--gutter), calc((100vw - 1320px) / 2 + var(--gutter))); }
-body { background: radial-gradient(70% 45% at 12% 30%, rgba(120, 134, 72, 0.16), transparent 70%), radial-gradient(60% 40% at 92% 62%, rgba(163, 209, 184, 0.06), transparent 70%), radial-gradient(70% 45% at 50% 105%, rgba(120, 134, 72, 0.14), transparent 70%), #11130E; background-attachment: fixed; }
+/* ==================== V5: full-screen hero on the V4 charcoal page ==================== */
+:root { --wrapx: max(var(--gutter), calc((100vw - 1320px) / 2 + var(--gutter))); }
 .svc-detail, .svc-card { background: var(--card); }
 
 /* hero: full bleed, under the header, the whole first screen */
 .hero2 { padding-top: 0; margin-top: calc(-1 * var(--hh, 78px)); }
 .hero2 > .wrap { max-width: none; padding: 0; }
-.stage--full { height: 100svh; min-height: 620px; max-height: none; border-radius: 0; box-shadow: none; background: #11130E; }
-.stage--full .stage-photo {
-  background:
-    radial-gradient(ellipse 60% 55% at 28% 78%, rgba(120, 134, 72, 0.55), transparent 70%),
-    radial-gradient(ellipse 45% 40% at 80% 20%, rgba(163, 209, 184, 0.14), transparent 70%),
-    radial-gradient(ellipse 40% 40% at 92% 90%, rgba(205, 187, 244, 0.12), transparent 70%),
-    radial-gradient(ellipse 50% 40% at 8% 10%, rgba(244, 199, 179, 0.07), transparent 70%),
-    linear-gradient(180deg, #1A1E14, #11130E);
-}
-.stage--full .stage-photo::after { background: linear-gradient(0deg, #11130E 0%, rgba(17, 19, 14, 0) 24%); }
+.stage--full { height: 100svh; min-height: 620px; max-height: none; border-radius: 0; box-shadow: none; background: #151615; }
+
+.stage--full .stage-photo::after { background: linear-gradient(0deg, #151615 0%, rgba(21, 22, 21, 0) 26%); }
 .stage--full .hero-copy { left: var(--wrapx); top: calc(var(--hh, 78px) + clamp(28px, 7vh, 90px)); }
 .stage--full .dog-hud { left: var(--wrapx); top: calc(var(--hh, 78px) + 22px); }
 .stage--full .stage-cards { right: var(--wrapx); top: calc(var(--hh, 78px) + 22px); }
