@@ -3,66 +3,134 @@
 :root{color-scheme:light} *{box-sizing:border-box;margin:0;padding:0}
 body{font:16px/1.5 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;background:#ECE7F1;color:#141416;padding:48px 16px 80px}
 main{max-width:1120px;margin:0 auto;display:grid;gap:28px}
-h1{font-weight:400;font-size:clamp(30px,5vw,44px);letter-spacing:-0.03em} .intro{color:#4F4C57;max-width:720px}
+h1{font-weight:400;font-size:clamp(30px,5vw,44px);letter-spacing:-0.03em} h2{font-weight:400;font-size:clamp(24px,4vw,32px);letter-spacing:-0.02em;margin-top:36px}
+.intro{color:#4F4C57;max-width:760px}
+.sheet{width:100%;border-radius:18px;display:block}
 article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start;background:#fff;border-radius:24px;padding:18px;box-shadow:0 20px 40px -30px rgba(60,40,90,.4)}
-article img{width:100%;height:auto;border-radius:14px;display:block}
+article img{width:100%;height:auto;border-radius:14px;display:block;max-height:760px;object-fit:contain;background:#111}
 .meta{display:grid;gap:6px;padding:8px 4px} .n{font:500 13px ui-monospace,Menlo,monospace;text-transform:uppercase;letter-spacing:.06em;color:#858190;margin-bottom:6px}
-.lbl{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#858190;margin-top:10px} .txt{font-size:16px} .hd{font-size:20px;font-weight:500;letter-spacing:-0.01em}
+.lbl{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:#858190;margin-top:10px} .txt{font-size:16px;white-space:pre-line} .hd{font-size:20px;font-weight:500;letter-spacing:-0.01em}
 .dl{margin-top:16px;justify-self:start;padding:10px 18px;border-radius:999px;background:#141416;color:#fff;text-decoration:none;font-size:14px}
+.script{background:#fff;border-radius:24px;padding:22px;box-shadow:0 20px 40px -30px rgba(60,40,90,.4);overflow-x:auto}
+table{width:100%;border-collapse:collapse;min-width:560px} td{padding:12px 10px;border-top:1px solid #eee;vertical-align:top} tr:first-child td{border-top:0} td.t{font:500 13px ui-monospace,Menlo,monospace;white-space:nowrap;color:#858190}
 @media (max-width:760px){article{grid-template-columns:1fr}}
 </style></head><body><main>
-<h1>Setter ads, round one</h1>
-<p class="intro">Ten 1080 by 1080 creatives for LinkedIn and Meta, each with its post text, headline and button. The domain setter.so is a placeholder.</p>
-<img src="png/contact-sheet.png" alt="All ten ads" style="width:100%;border-radius:18px">
-<article><img src="png/ad-01.png" alt="Ad 1: Bred to find revenue" loading="lazy" width="1080" height="1080">
+<h1>Setter ads</h1>
+<p class="intro">Fifteen creatives for LinkedIn and Meta, each with its post text, headline and button. The domain setter.so is a placeholder.</p>
+<h2>Round one</h2>
+<img class="sheet" src="png/contact-sheet.png" alt="Round one, all ten ads">
+<article><img src="png/ad-01.png" alt="Ad 1: Bred to find revenue" loading="lazy">
 <div class="meta"><span class="n">01 · Brand: the dot setter</span>
 <p class="lbl">Post text</p><p class="txt">Your pipeline runs on signals. Setter finds them, points your team at them and holds every lead. GTM engineering for B2B SaaS, live in about 6 days.</p>
 <p class="lbl">Headline</p><p class="hd">Bred to find revenue</p>
 <p class="lbl">Button</p><p class="cta">Learn more</p>
-<a class="dl" href="png/ad-01.png" download>Download PNG</a></div></article><article><img src="png/ad-02.png" alt="Ad 2: Your first live play in 6 days" loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-01.png" download>Download PNG</a></div></article><article><img src="png/ad-02.png" alt="Ad 2: Your first live play in 6 days" loading="lazy">
 <div class="meta"><span class="n">02 · Big number: 6 days</span>
 <p class="lbl">Post text</p><p class="txt">Most GTM projects take a quarter. Ours take a week. Book a 30-minute systems review and your first play is live in about 6 days.</p>
 <p class="lbl">Headline</p><p class="hd">Your first live play in 6 days</p>
 <p class="lbl">Button</p><p class="cta">Request demo</p>
-<a class="dl" href="png/ad-02.png" download>Download PNG</a></div></article><article><img src="png/ad-03.png" alt="Ad 3: Raised your Series A? Start here." loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-02.png" download>Download PNG</a></div></article><article><img src="png/ad-03.png" alt="Ad 3: Raised your Series A? Start here." loading="lazy">
 <div class="meta"><span class="n">03 · Callout: Series A founders</span>
 <p class="lbl">Post text</p><p class="txt">New round, new targets, same messy stack. Setter builds the data, signals and plays behind your pipeline, inside the tools you already pay for.</p>
 <p class="lbl">Headline</p><p class="hd">Raised your Series A? Start here.</p>
 <p class="lbl">Button</p><p class="cta">Learn more</p>
-<a class="dl" href="png/ad-03.png" download>Download PNG</a></div></article><article><img src="png/ad-04.png" alt="Ad 4: Your first 3 plays, free" loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-03.png" download>Download PNG</a></div></article><article><img src="png/ad-04.png" alt="Ad 4: Your first 3 plays, free" loading="lazy">
 <div class="meta"><span class="n">04 · Offer: first 3 plays free</span>
 <p class="lbl">Post text</p><p class="txt">30 minutes with a GTM engineer. We map your stack and hand you the three plays we&#x27;d build first. Yours to keep, whether you work with us or not.</p>
 <p class="lbl">Headline</p><p class="hd">Your first 3 plays, free</p>
 <p class="lbl">Button</p><p class="cta">Register</p>
-<a class="dl" href="png/ad-04.png" download>Download PNG</a></div></article><article><img src="png/ad-05.png" alt="Ad 5: Your tools, finally running" loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-04.png" download>Download PNG</a></div></article><article><img src="png/ad-05.png" alt="Ad 5: Your tools, finally running" loading="lazy">
 <div class="meta"><span class="n">05 · Problem: tools nobody runs</span>
 <p class="lbl">Post text</p><p class="txt">CRM, data, enrichment, sequencing, routing. You pay for all of it. Setter connects it, runs it and owns the number it moves.</p>
 <p class="lbl">Headline</p><p class="hd">Your tools, finally running</p>
 <p class="lbl">Button</p><p class="cta">Learn more</p>
-<a class="dl" href="png/ad-05.png" download>Download PNG</a></div></article><article><img src="png/ad-06.png" alt="Ad 6: Form fill to rep in under a minute" loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-05.png" download>Download PNG</a></div></article><article><img src="png/ad-06.png" alt="Ad 6: Form fill to rep in under a minute" loading="lazy">
 <div class="meta"><span class="n">06 · Speed to lead: 0:47</span>
 <p class="lbl">Post text</p><p class="txt">A demo request that waits a day is a lost deal. Setter&#x27;s speed-to-lead router enriches, routes and alerts the right rep in under a minute.</p>
 <p class="lbl">Headline</p><p class="hd">Form fill to rep in under a minute</p>
 <p class="lbl">Button</p><p class="cta">Learn more</p>
-<a class="dl" href="png/ad-06.png" download>Download PNG</a></div></article><article><img src="png/ad-07.png" alt="Ad 7: Not another tool. Not another agency." loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-06.png" download>Download PNG</a></div></article><article><img src="png/ad-07.png" alt="Ad 7: Not another tool. Not another agency." loading="lazy">
 <div class="meta"><span class="n">07 · Comparison</span>
 <p class="lbl">Post text</p><p class="txt">Software makes you run it. Agencies rarely build. Setter builds and runs the system inside your stack, and one person owns the number.</p>
 <p class="lbl">Headline</p><p class="hd">Not another tool. Not another agency.</p>
 <p class="lbl">Button</p><p class="cta">Learn more</p>
-<a class="dl" href="png/ad-07.png" download>Download PNG</a></div></article><article><img src="png/ad-08.png" alt="Ad 8: Every signal becomes a play" loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-07.png" download>Download PNG</a></div></article><article><img src="png/ad-08.png" alt="Ad 8: Every signal becomes a play" loading="lazy">
 <div class="meta"><span class="n">08 · Signals</span>
 <p class="lbl">Post text</p><p class="txt">New sales leader. Funding round. Pricing page visits. Setter watches every signal and turns each one into a sequence, an alert or a route.</p>
 <p class="lbl">Headline</p><p class="hd">Every signal becomes a play</p>
 <p class="lbl">Button</p><p class="cta">Learn more</p>
-<a class="dl" href="png/ad-08.png" download>Download PNG</a></div></article><article><img src="png/ad-09.png" alt="Ad 9: One signal, start to finish" loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-08.png" download>Download PNG</a></div></article><article><img src="png/ad-09.png" alt="Ad 9: One signal, start to finish" loading="lazy">
 <div class="meta"><span class="n">09 · Trace</span>
 <p class="lbl">Post text</p><p class="txt">From a funding announcement to a booked meeting: agents do every step in seconds, and your GTM engineer approves the one that reaches a buyer.</p>
 <p class="lbl">Headline</p><p class="hd">One signal, start to finish</p>
 <p class="lbl">Button</p><p class="cta">Learn more</p>
-<a class="dl" href="png/ad-09.png" download>Download PNG</a></div></article><article><img src="png/ad-10.png" alt="Ad 10: Built by people who&#x27;ve run GTM" loading="lazy" width="1080" height="1080">
+<a class="dl" href="png/ad-09.png" download>Download PNG</a></div></article><article><img src="png/ad-10.png" alt="Ad 10: Built by people who&#x27;ve run GTM" loading="lazy">
 <div class="meta"><span class="n">10 · Operators</span>
 <p class="lbl">Post text</p><p class="txt">We&#x27;ve run GTM at Series A and B startups and taken legacy stacks all the way to automated. Now we do it for you, inside your stack.</p>
 <p class="lbl">Headline</p><p class="hd">Built by people who&#x27;ve run GTM</p>
 <p class="lbl">Button</p><p class="cta">Request demo</p>
 <a class="dl" href="png/ad-10.png" download>Download PNG</a></div></article>
+<h2>Round two, modeled on DevSignal&rsquo;s top ads</h2>
+<p class="intro">Three role callouts in the shape of DevSignal&rsquo;s best-ranked static ads (question, highlighted phrase, one line on the fix, two checks, a button), and the black quote card in square and 9:16.</p>
+<img class="sheet" src="png/contact-sheet-2.png" alt="Round two, five ads">
+<article><img src="png/ad-11.png" alt="Ad 11: Hand Outbound to a GTM Engineer" loading="lazy">
+<div class="meta"><span class="n">11 · Callout: founder-led outbound</span>
+<p class="lbl">Post text</p><p class="txt">Still running outbound yourself?
+
+Founders shouldn&#x27;t be building lists at midnight. A GTM engineer can build the system and run it every day.
+
+Setter builds the data, signals and plays behind your pipeline, inside your stack.
+
+✔️ First play live in about 6 days
+✔️ Runs inside your stack
+
+See the plays →</p>
+<p class="lbl">Headline</p><p class="hd">Hand Outbound to a GTM Engineer</p>
+<p class="lbl">Button</p><p class="cta">Learn more</p>
+<a class="dl" href="png/ad-11.png" download>Download PNG</a></div></article><article><img src="png/ad-12.png" alt="Ad 12: Keep Your CRM Clean, Automatically" loading="lazy">
+<div class="meta"><span class="n">12 · Callout: RevOps and CRM</span>
+<p class="lbl">Post text</p><p class="txt">Head of RevOps with a messy CRM?
+
+Duplicates and blank fields shouldn&#x27;t decide your forecast. A GTM engineer can clean it, route it and keep it clean.
+
+Setter builds the data, signals and plays behind your pipeline, inside your stack.
+
+✔️ Every change logged
+✔️ Nothing locked in our system
+
+See the plays →</p>
+<p class="lbl">Headline</p><p class="hd">Keep Your CRM Clean, Automatically</p>
+<p class="lbl">Button</p><p class="cta">Learn more</p>
+<a class="dl" href="png/ad-12.png" download>Download PNG</a></div></article><article><img src="png/ad-13.png" alt="Ad 13: Answer Every Demo Request in Seconds" loading="lazy">
+<div class="meta"><span class="n">13 · Callout: speed to lead</span>
+<p class="lbl">Post text</p><p class="txt">Demo requests waiting until Monday?
+
+Every hour a demo request waits, it cools. A speed-to-lead router can enrich it, route it and alert the right rep in under a minute.
+
+Setter builds the data, signals and plays behind your pipeline, inside your stack.
+
+✔️ First play live in about 6 days
+✔️ Works with HubSpot or Salesforce
+
+See the plays →</p>
+<p class="lbl">Headline</p><p class="hd">Answer Every Demo Request in Seconds</p>
+<p class="lbl">Button</p><p class="cta">Learn more</p>
+<a class="dl" href="png/ad-13.png" download>Download PNG</a></div></article><article><img src="png/ad-14.png" alt="Ad 14: GTM Engineering for B2B SaaS" loading="lazy">
+<div class="meta"><span class="n">14 · Quote, square</span>
+<p class="lbl">Post text</p><p class="txt">Most Series A teams already pay for a CRM, a data provider, a sequencer and a router. What they&#x27;re missing is someone to run them.
+
+Setter is that someone: AI agents for the work, a GTM engineer for the calls, first play live in about 6 days.</p>
+<p class="lbl">Headline</p><p class="hd">GTM Engineering for B2B SaaS</p>
+<p class="lbl">Button</p><p class="cta">Learn more</p>
+<a class="dl" href="png/ad-14.png" download>Download PNG</a></div></article><article><img src="png/ad-15.png" alt="Ad 15: GTM Engineering for B2B SaaS" loading="lazy">
+<div class="meta"><span class="n">15 · Quote, 9:16 story</span>
+<p class="lbl">Post text</p><p class="txt">Most Series A teams already pay for a CRM, a data provider, a sequencer and a router. What they&#x27;re missing is someone to run them.
+
+Setter is that someone: AI agents for the work, a GTM engineer for the calls, first play live in about 6 days.</p>
+<p class="lbl">Headline</p><p class="hd">GTM Engineering for B2B SaaS</p>
+<p class="lbl">Button</p><p class="cta">Learn more</p>
+<a class="dl" href="png/ad-15.png" download>Download PNG</a></div></article>
+<h2>Founder video script, 28 seconds, 9:16</h2>
+<p class="intro">DevSignal&rsquo;s highest-ranked ad is its founder talking to a phone camera, with word-by-word captions and quick proof cutaways. This is the Setter version, for you to film.</p>
+<div class="script"><table><tr><td class="t">0 to 3s</td><td>Selfie, walking</td><td>Most Series A teams I talk to pay for six GTM tools and run two of them.</td></tr><tr><td class="t">3 to 10s</td><td>Selfie</td><td>I&#x27;ve run GTM at Series A and B startups. Same story every time: the CRM is a mess, demo requests sit for a day, and the founder is still writing outbound at midnight.</td></tr><tr><td class="t">10 to 17s</td><td>Cutaway: the play builder on the site, then the trace</td><td>So we built Setter. AI agents do the work, a GTM engineer makes the calls, and your first play is live in about six days.</td></tr><tr><td class="t">17 to 25s</td><td>Selfie</td><td>Book a 30-minute review. You leave with the three plays we&#x27;d build first, whether you work with us or not.</td></tr><tr><td class="t">25 to 28s</td><td>End card: dots assemble into the setter</td><td>Bred to find revenue. setter.so</td></tr></table></div>
 </main></body></html>
